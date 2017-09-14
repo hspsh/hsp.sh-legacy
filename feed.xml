@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackerspace Trójmiasto</title>
+    <description>Tworzymy przestrzeń, która umożliwi wymianę wiedzy i doświadczeń, rozwijanie kompetencji technologicznych, a także rozwój własnych projektów.</description>
+    <link>http://hs3.pl///</link>
+    <atom:link href="http://hs3.pl///feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 21 Jan 2017 01:24:49 +0100</pubDate>
+    <lastBuildDate>Sat, 21 Jan 2017 01:24:49 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.2</generator>
+    
+      <item>
+        <title>Symulator Łososio-Ptaka w wirtualnej rzeczywistości</title>
+        <description>&lt;p&gt;Pierwszy projekt hackerspacu to symulator łososio ptaka w wirtualnej rzeczywistości. Wiatraczek zmieniający moc zależnie od prędkości lotu i tego jak bardzo machamy skrzydłami na naszej domowej siłowni. :)&lt;/p&gt;
+
+&lt;p&gt;Planujemy zrobić coś podobnego jak na załączonym filmiku.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/gWLHIusLWOc?color=white&amp;amp;theme=light&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gWLHIusLWOc&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Osoby zainteresowane dołączeniem do projektu prosimy o maila
+ &lt;a href=&quot;mailto:?Subject=Mail%20hs3.pl&quot; target=&quot;_top&quot;&gt;&lt;span class=&quot;grey&quot;&gt;kontakt&lt;/span&gt;@&lt;span class=&quot;grey&quot;&gt;hs3.pl&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2016 17:04:23 +0200</pubDate>
+        <link>http://hs3.pl///2016/%C5%81ososioptak/</link>
+        <guid isPermaLink="true">http://hs3.pl///2016/%C5%81ososioptak/</guid>
+        
+        <category>projekty</category>
+        
+        
+        <category>projekty</category>
+        
+      </item>
+    
+      <item>
+        <title>Lista projektów</title>
+        <description>&lt;p&gt;Lista pomysłów na projekty i projektów szukających osób do zespołów.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pierwszy projekt hackerspacu&lt;/strong&gt; &lt;a href=&quot;/2016/Łososioptak/&quot;&gt;symulator ptako-łososia (kliknij po więcej)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenCV&lt;/strong&gt;; rozpoznawanie obrazu (rozpoznawanie ludzi z wysokości jako soft dla budowanego drona). Mamy jednego eksperta. Osoby chętne zajęciem się przetwarzaniem obrazu serdecznie zapraszamy do kontaktu. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Układy FPGA&lt;/strong&gt;; jest kilka zainteresowanych osób, zaczynamy od października. Proszę o deklarację  &lt;a href=&quot;mailto:?Subject=Mail%20hs3.pl&quot; target=&quot;_top&quot;&gt;mailową&lt;/a&gt; kto chciałby być w teamie bym dołaczył do grupy projektowej. Trzeba wybrać co będziemy robić na początek. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Automatyczny stroik do gitar&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Portal&lt;/strong&gt; na Django (do nauki dla początkujących idealny), polecamy &lt;a href=&quot;http://tutorial.djangogirls.org/pl/&quot;&gt;ten tutorial&lt;/a&gt; :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Inteligentne oświetlenie&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Robot/łazik&lt;/strong&gt; na 6 kołach. Od zera samemu ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Podłączenie raspberry pod Amazon Echo.&lt;/strong&gt; (Mamy jedno Echo w HSie) Wszystko co da się podłączyć pod sterowanie głosowe też :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grupa samonauki machine learning/data science.&lt;/strong&gt; Jedna osoba ma swój projekt, reszta robiła by wspólnie jeden bardzo dobry kurs online ze Stanfordu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Miejsce na twój projekt for fun lub startup :)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Osoby zainteresowane &lt;strong&gt;dołączeniem&lt;/strong&gt; do projektu prosimy o maila
+ &lt;a href=&quot;mailto:?Subject=Mail%20hs3.pl&quot; target=&quot;_top&quot;&gt;&lt;span class=&quot;grey&quot;&gt;kontakt&lt;/span&gt;@&lt;span class=&quot;grey&quot;&gt;hs3.pl&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2016 17:04:23 +0200</pubDate>
+        <link>http://hs3.pl///2016/Projekty/</link>
+        <guid isPermaLink="true">http://hs3.pl///2016/Projekty/</guid>
+        
+        <category>projekty</category>
+        
+        
+        <category>projekty</category>
+        
+      </item>
+    
+      <item>
+        <title>Otwarcie HSu podczas drugiej edycji CODE{sun}DAY!</title>
+        <description>&lt;p&gt;Druga edycja CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY odbywająca się 2-3 lipca 2016, miała 200 uczestników. &lt;a href=&quot;/2016/CODE-sun-DAY/&quot;&gt;Przeczytaj o pierwszej edycji.&lt;/a&gt; W trakcie dwóch ścieżek. Software i hardware odbyło się 12 warsztatów.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-imgs/cs-crazy.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Java, JavaScript, Php, Html/Css, C#, Python, ASP.NET ze strony softu oraz Arduino, Genuino, Virtual Reality i Robotyka Lego ze strony hardwaru. Łącznie odbyło się 96 godzin warsztatów.&lt;/p&gt;
+
+&lt;p&gt;Wydarzenie było dużym sukcesem! Drugiej edycji CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY towarzyszyło oficjalne otwarcie hackerspace Trójmiasto. Mamy piękną czarną ścianę z dużymi logotypami &lt;span class=&quot;red&quot;&gt;3D&lt;/span&gt; naszych głównych partnerów. :)&lt;/p&gt;
+
+&lt;p&gt;Ekipa z VR-u zasłoniła super ścianę, ale chłopaki też są super. ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-imgs/vr-wall.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Jul 2016 17:04:23 +0200</pubDate>
+        <link>http://hs3.pl///2016/Otwarcie-HSu!-CODE-sun-DAY-edycja-druga/</link>
+        <guid isPermaLink="true">http://hs3.pl///2016/Otwarcie-HSu!-CODE-sun-DAY-edycja-druga/</guid>
+        
+        <category>hackerspace</category>
+        
+        <category>wydarzenia</category>
+        
+        
+        <category>organizacyjne</category>
+        
+      </item>
+    
+      <item>
+        <title>CODE{sun}DAY, pierwsza edycja!</title>
+        <description>&lt;p&gt;CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY to sześciogodzinny niedzielny warsztat, uczestnicy mieli okazję rozpocząć swoją przygodę z programowaniem od samych podstaw, w przyjaznym dla początkujących tempie.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-imgs/cs-first.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do wyboru były dwie ścieżki - SOFTWARE i HARDWARE. Pierwsza z nich to nauka jednego z najbardziej poszukiwanych na rynku języków programowania, języka Java, od samego początku. Od poznania narzędzi programistycznych, składni, dobrych praktyk podczas pisania kodu, aż do stworzenia swojej pierwszej aplikacji. Druga to szansa na poznanie małej płytki o wielkich możliwościach. Na przykładzie mikrokontrolera Arduino, różnych czujników i dodatkowych modułów, uczestnicy dowiedzieli się, jak działają inteligentne systemy zarządzania urządzeniami w domach i jak zbudować własnego robota oraz zmierzyli się z tworzeniem własnego projektu od samego początku.&lt;/p&gt;
+
+&lt;p&gt;Po niezwykle udanych styczniowych warsztatach CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY, gdzie 50 osób
+zasmakowało świata koderki i budowania inteligentnych urządzeń przyszedł czas
+na druga edycję. Podczas CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY 2 2-3 lipca 2016 roku w Gdańskim
+Inkubatorze Przedsiębiorczości było&lt;a href=&quot;/2016/Otwarcie-HSu!-CODE-sun-DAY-edycja-druga/&quot;&gt; 200 uczestników.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 16:04:23 +0100</pubDate>
+        <link>http://hs3.pl///2016/CODE-sun-DAY/</link>
+        <guid isPermaLink="true">http://hs3.pl///2016/CODE-sun-DAY/</guid>
+        
+        <category>wydarzenia</category>
+        
+        
+        <category>organizacyjne</category>
+        
+      </item>
+    
+      <item>
+        <title>Początki naszego HSu!</title>
+        <description>&lt;p&gt;Od czegoś trzeba zacząć. Co było naszym początkiem? Trzytygodniowe warsztaty programowania mikrokontrolera Arduino. Od podstaw. Od podłączenia pierwszej diody, która w końcu zaświeciła pełnym blaskiem.&lt;/p&gt;
+
+&lt;p&gt;Po krótkiej przygodzie z brzęczykiem, jednym spalonym czujniku odległości, kilku(nastu) zagubionych rezystorach udało się - podczas całonocnego hackathonu kończącego warsztaty powstały pierwsze prototypy inteligentnych rozwiązań.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/blog-imgs/banana.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;WARSZTATY Z BANANA PRO/ RASPBERRY PI
+…czyli krok dalej w stronę budowy inteligentnego domu. Oprócz różnorodnych czujników, podczas warsztatów z Banana PRO i Raspberry Pi uczestnicy wykorzystywali łączność bezprzewodową (WiFi, Bluetooth i radio) i moduły rozszerzające możliwości miktokomputerów.&lt;/p&gt;
+
+&lt;p&gt;Na koniec, podczas nocnego hackathonu, powstały już niemal gotowe do zamontowania w domach urządzenia.&lt;/p&gt;
+
+&lt;p&gt;CODE&lt;span class=&quot;yellow&quot;&gt;{sun}&lt;/span&gt;DAY - ŚCIEŻKA HARDWARE
+Podczas jednodniowego, intensywnego warsztatu, uczestnicy zmierzyli się z mikrokontrolerem Arduino i na własnej skórze przekonali się, że elektronika to nic trudnego, a do zaprogramowania pierwszego inteligentnego urządzenia naprawdę niewiele potrzeba.&lt;/p&gt;
+
+&lt;p&gt;W 6 godzin powstały takie projekty, jak mini-alarm czy przyjaciel sąsiada. Da się? Oczywiście!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jan 2016 16:04:23 +0100</pubDate>
+        <link>http://hs3.pl///2016/Pocz%C4%85tki/</link>
+        <guid isPermaLink="true">http://hs3.pl///2016/Pocz%C4%85tki/</guid>
+        
+        <category>hackerspace</category>
+        
+        
+        <category>organizacyjne</category>
+        
+      </item>
+    
+  </channel>
+</rss>
