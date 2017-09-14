@@ -1,0 +1,22 @@
+[
+        {
+            "currentMoney": 1388,
+            "neededMoney": 900,
+            "text": "Rzutnik bez śniegu"
+        },
+        {
+            "currentMoney": 900,
+            "neededMoney": 900,
+            "text": "Drukarka 3D"
+        },
+        {
+            "currentMoney": 148,
+            "neededMoney": 60,
+            "text": "Ciastka i napoje"
+        },
+        {
+            "currentMoney": 15,
+            "neededMoney": 60,
+            "text": "Zdrowe jedzenie i woda"
+        }      
+]
