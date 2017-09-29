@@ -1,5 +1,5 @@
 # Site settings
-title: Hackerspace Trójmiasto
+title: 'Hackerspace Trójmiasto'
 description: 'Tworzymy przestrzeń, która umożliwi wymianę wiedzy i doświadczeń, rozwijanie kompetencji technologicznych, a także rozwój własnych projektów.'
 url: ''
 baseurl: ''
@@ -7,12 +7,11 @@ baseurl: ''
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Hackerspace Trójmiasto'
+  email: kontakt@hs3.pl
+  facebook_username: hackerspacetrojmiasto
+  github_username:  hs3city
+  meetup_username:  hs3city
 
 defaults:
   -
