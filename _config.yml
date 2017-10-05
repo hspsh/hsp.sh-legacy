@@ -1,0 +1,42 @@
+# Site settings
+title: 'Hackerspace Trójmiasto'
+description: 'Tworzymy przestrzeń, która umożliwi wymianę wiedzy i doświadczeń, rozwijanie kompetencji technologicznych, a także rozwój własnych projektów.'
+url: ''
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Hackerspace Trójmiasto'
+  email: kontakt@hs3.pl
+  facebook_username: hackerspacetrojmiasto
+  github_username:  hs3city
+  meetup_username:  hs3city
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', '_old']

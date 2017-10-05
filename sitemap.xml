@@ -1,262 +1,56 @@
+---
+layout: null
+sitemap:
+  exclude: 'yes'
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    
+  {% for post in site.posts %}
+    {% unless post.published == false %}
     <url>
-      <loc>http://hs3.pl//2016/%C5%81ososioptak/</loc>
-      
-        <lastmod>2016-08-30T17:04:23+02:00</lastmod>
-      
-      
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.sitemap.lastmod %}
+        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.sitemap.changefreq %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% else %}
         <changefreq>monthly</changefreq>
-      
-      
+      {% endif %}
+      {% if post.sitemap.priority %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% else %}
         <priority>0.5</priority>
-      
+      {% endif %}
     </url>
-    
-  
-    
+    {% endunless %}
+  {% endfor %}
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" or page.robots contains "noindex" %}
     <url>
-      <loc>http://hs3.pl//2016/Projekty/</loc>
-      
-        <lastmod>2016-08-30T17:04:23+02:00</lastmod>
-      
-      
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      {% if page.sitemap.lastmod %}
+        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% elsif page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if page.sitemap.changefreq %}
+        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+      {% else %}
         <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//2016/Otwarcie-HSu!-CODE-sun-DAY-edycja-druga/</loc>
-      
-        <lastmod>2016-07-04T17:04:23+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//2016/CODE-sun-DAY/</loc>
-      
-        <lastmod>2016-01-25T16:04:23+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//2016/Pocz%C4%85tki/</loc>
-      
-        <lastmod>2016-01-11T16:04:23+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.5</priority>
-      
-    </url>
-    
-  
-  
-    
-    <url>
-      <loc>http://hs3.pl//about/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
+      {% endif %}
+      {% if page.sitemap.priority %}
+        <priority>{{ page.sitemap.priority }}</priority>
+      {% else %}
         <priority>0.3</priority>
-      
+      {% endif %}
     </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//blog/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//calendar/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//categories/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//contact/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//feed.xml</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//gamejam/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//js/main.js</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//members/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//partners/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>http://hs3.pl//tags/</loc>
-      
-        <lastmod>2017-01-21T01:24:49+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
+    {% endunless %}
+  {% endfor %}
 </urlset>
