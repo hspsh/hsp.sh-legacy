@@ -11,9 +11,9 @@ Utwórz fork tego repo.
 Możesz dodawać treści przy pomocy samego github'a.  
 
 - Albo sklonować swojego forka na maszyna i tam rozpocząć edycje.
-	``` git clone 'adres forka'```
+	```git clone 'adres forka'```
 - Zainstaluj jekylla
-	``` bundle install```
+	```bundle install```
 - Aby uruchomić jekyll'a 
 	```bundle exec jekyll serve``` 
 	albo samo 
