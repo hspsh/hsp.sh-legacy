@@ -1,0 +1,86 @@
+---
+layout: page
+title: Game jam
+permalink: /gamejam/
+---
+
+<iframe src="https://gamejam.evenea.pl?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.evenea.pl/js/iframe/new/iframeResizer2.js"></script>
+
+<p>Jeśli nie widzisz zapisów <a href="http://gamejam.evenea.pl/">kliknij tu </a></p>
+
+<h2>Hackerspace Game Jam</h2>
+<!-- <p class="contact-p">ul.Lęborska 3b, 4 piętro, 80-386 Gdańsk</p>
+<p class="contact-p"><a href="tel:+48507313631"><span class="grey">+48 507 313 631</span></a></p>
+<p class="contact-p"><a href="mailto:wojciech.kokorzycki@codeme.pl?Subject=Strona%20HS3%20kontakt"><span class="grey">wojciech.kokorzycki</span>@<span class="grey">codeme.pl</span></a></p>
+<p class="contact-p"><a href="irc://irc.freenode.net/#hs3"><span class="grey">irc: freenode.net/</span>#hs3</a></a></p> -->
+
+<br>
+<p>To trójmiejski maraton programistyczny, organizowany w ramach Global Game Jam, cyklicznej imprezy zrzeszającej co roku twórców gier na całym świecie. </p>
+
+
+<p>W dniach 20-22 stycznia zbierzemy się w 80 osobowym jam site, w Gdańskim Parku Naukowo Technologicznym, aby w ciągu 48 godzinnego maratonu wytworzyć gry oparte o jedną wspólną tematykę.</p>
+
+<p>Jesteśmy pasjonatami i wydarzenie to tworzymy jako społeczność. Chcemy w 2017 roku ponownie przetestować nasze możliwości i w jeden weekend wytworzyć dzieła, które będą bawić i nie raz zaskakiwać nas i naszych znajomych. </p>
+
+<p>Zgodnie z formułą będziemy podzieleni na 3 - 5 osobowe zespoły. Możliwe jest przyjście z gotową drużyną, choć na rozpoczęciu wydarzenia będziemy również formować nowe zespoły. Wydarzenie jest więc dla osób lubiących pracować ze swoimi znajomymi, jak i dla tych, którzy chcą spróbować sił z zupełnie nowymi twórcami.</p>
+
+<p>Co najważniejsze, game jam to nie rywalizacja. Każda drużyna będzie starała się stworzyć grę, która zostanie uznana za najlepsze dzieło na tym game jamie, ale nie zbieramy się z tego powodu. Naszym celem jest świetna zabawa i poznanie naszych umiejętności oraz trójmiejskiej społeczności twórców gier.</p>
+
+<h2>Rejestracja</h2>
+
+<p>Otwieramy rejestrację wraz z ogłoszeniem wydarzenia. Nie prowadzimy selekcji,a o udziale w wydarzeniu decyduje kolejność zgłoszeń. </p>
+
+<p>W tym roku robimy wydarzenie jako społeczność oraz uczestnicy poprzednich edycji. Z tego powodu zbieramy symboliczną opłatę rejestracyjną. Przeznaczona ona zostanie w całości na podstawowy catering na wydarzeniu oraz da pewność, że zapisywać się będą tylko osoby zdecydowane.</p>
+
+<h2 class="harmonogram">Harmonogram</h2>
+<h3 class="harmonogram">20.01</h3>
+16:00 - 17:30: Rejestracja i przygotowywanie stanowisk<br>
+17:30 - 18:30: Powitanie i ogłoszenie tegorocznego tematu<br>
+18:30 - 19:30: Tworzenie pomysłów, przygotowanie do ich prezentacji<br>
+19:30 - 20:30: Prezentacja pomysłów i formowanie grup<br>
+20:30: Rozpoczęcie pracy<br>
+<h3 class="harmonogram">21.01</h3>
+9:00: Śniadanie<br>
+Cały dzień: Game Jam<br>
+<h3 class="harmonogram">22.02</h3>
+9:00: Śniadanie<br>
+15:00: Deadline na upublicznienie gier<br>
+15:00 - 18:00: Prezentacje gier<br>
+18:00 - 19:00: Ogłoszenie zwycięzców i zakończenie<br>
+
+<h2>VR</h2>
+
+<p>W tym roku dzięki współpracy z VR Visio, będziemy w stanie zapewnić na miejscu wydarzenia okulary niezbędne do produkcji gier w VR. Dzięki temu każdy zespół, który chciałby spróbować swoich sił z tą nowatorską technologią, będzie miał ku temu doskonałą okazję. 
+</p>
+<p>
+Gry VR często ciężko porównywać do klasycznej rozgrywki, z tego powodu w głosowaniu prowadzimy dwie osobne kategorie. Testować będziemy wszystkie tytuły, nigdy dość grania ;)
+</p>
+<a href="http://www.gpnt.pl/">
+	<img style="max-width: 100%; height: auto;" src="/images/gamejam/gpnt.jpg">
+</a>
+<h2>
+Lokalizacja naszego gospodarza
+</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9300.51410297041!2d18.5931854!3d54.3547098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b933fc83824ddec!2sGda%C5%84ski+Park+Naukowo-Technologiczny!5e0!3m2!1sen!2spl!4v1482083207988" width="600" height="250" frameborder="0" style="border:0;  max-width: 100%; height: auto;" allowfullscreen></iframe>
+<h2>
+Partner Główny
+</h2>
+<a href="http://aidemmedia.pl/">
+	<img style="padding-bottom: 25px; max-width: 100%; height: auto;" src="/images/gamejam/aidemmedia.png">
+</a>
+<h2>
+Sponsor VR
+</h2>
+<a href="http://dreamz.vision/">
+	<img style="padding-bottom: 25px; max-width: 100%; height: auto;" src="/images/gamejam/dreamz.png">
+</a>
+<h2>
+Współorganizatorzy
+</h2>
+<a href="">
+	<img style="padding-bottom: 25px; max-width: 100%; height: auto;" src="/images/gamejam/orgs.png">
+</a>
+
+
