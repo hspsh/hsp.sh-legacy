@@ -4,6 +4,10 @@ title: Hackathon świąteczny
 permalink: /hackathon/
 ---
 
+Zapisy: [<a href="https://hackathonswiateczny.evenea.pl" target="_blank">hackathonswiateczny.evenea.pl</a>]
+
+Dyskusja, komentarze: [<a href="https://www.facebook.com/events/1170553073074616/" target="_blank">https://www.facebook.com/events/1170553073074616/</a>]
+
 W piątek, 15-tego grudnia zapraszamy wszystkich zainteresowanych elektroniką, arduino, diodami led itp. na 24-godzinny mini hackathon świąteczny, który odbędzie się w siedzibie hackerspace trójmiasto pod adresem al. Wojska Polskiego 41.
 
 Tematem przewodnim hackathonu są święta i wszystko co z nimi związane - ozdoby, kolędy, prezenty i szeroko pojęty rodzinny klimat tych świąt. Celujemy w luźny klimat hackathonu dla zabawy, wielkiego hakowania nie przewidujemy.
