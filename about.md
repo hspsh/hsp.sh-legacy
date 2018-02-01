@@ -19,4 +19,8 @@ Poza nauką, stawiamy również na praktykę. Dlatego budujemy wspólny warsztat
 #### PLANUJEMY NASZĄ PRZYSZŁOŚĆ
 Dążymy do stworzenia społeczności, będącej lokalną, oddolną inicjatywą technologiczną, dającej swoim członkom możliwość korzystania z profesjonalnego warsztatu. Prelekcje i wykłady mają charakter otwarty, a ich liczni uczestnicy po zapoznaniu się z naszą misją i miejscem mają okazję do nas dołączyć. Utrzymanie zapewniamy sobie ze składek członkowskich, które pożytkujemy na opłacenie lokalu, zakup sprzętu czy ciekawe projekty naszych członków.
 
+#### Patroni
+Większość naszego budżetu pochodzi ze składek członkowskich, ale mamy też patronów, którzy wspierają Hacker:Space.
 
+![Patron: Dynatrace](../images/sponsor_dynatrace.png)
+![Patron: Adva optical networking](../images/sponsor_adva.png)
