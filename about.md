@@ -2,6 +2,7 @@
 layout: default
 title: O nas
 permalink: /about/
+menus: header
 ---
 
 ## 4 rzeczy!!!!!!!!!!!!

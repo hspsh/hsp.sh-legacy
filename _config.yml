@@ -30,6 +30,7 @@ github_username:  jekyll
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-menus
 
 # sass:
 #   sass_dir: _sass

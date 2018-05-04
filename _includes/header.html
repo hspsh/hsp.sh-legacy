@@ -1,13 +1,11 @@
 <header>
-    <nav id="nav-social">
-        <a href="#">fb</a>
-        <a href="#">wiki</a>
-        <a href="#">github</a>
-    </nav>
+    {% if page.url == "/" %}
+        {% assign menu = site.menus.quick %}
+        {% include nav-links.html %}
+    {% else %}
+        <a href="{{ site.baseurl }}/">small logo</a>
+    {% endif %}
 
-    <nav id="nav-main">
-        <a href="#">o nas</a>
-        <a href="#">członkowstwo</a>
-        <a href="#">wydarzenia</a>
-    </nav>
+    {% assign menu = site.menus.header %}
+    {% include nav-links.html %}
 </header>
