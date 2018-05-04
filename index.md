@@ -4,3 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+Tworzymy przestrzeń, która umożliwi wymianę wiedzy i doświadczeń, rozwijanie kompetencji technologicznych, a także rozwój własnych projektów.
