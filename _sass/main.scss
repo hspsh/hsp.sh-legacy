@@ -8,3 +8,21 @@ body {
     width: 70%;
 }
 
+nav a {
+    color: white;
+}
+
+nav a::after {
+    content: " |";
+    color: red;
+}
+
+nav a:first-child::before {
+    content: "[ ";
+    color: white;
+}
+
+nav a:last-child::after {
+    content: " ]";
+    color: white;
+}
