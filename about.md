@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: O nas
 permalink: /about/
 ---

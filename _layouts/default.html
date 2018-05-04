@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>hs</title>
-    <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | relative_url }}">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
 </head>
 <body>
-{{ content }}
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
 </body>
 </html>
