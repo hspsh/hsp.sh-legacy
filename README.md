@@ -7,6 +7,14 @@ bundle install
 bundle exec jekyll serve
 ```
 
+
+**Ubuntu**
+
+```
+apt install ruby-dev libffi-dev
+```
+
+
 ### Layout
 First draft located at `dev/layout`.
 
