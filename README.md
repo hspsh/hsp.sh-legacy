@@ -6,7 +6,12 @@ Project of new hs3.pl site.
 bundle install
 bundle exec jekyll serve
 ```
+albo
 
+```bash
+make
+make serve
+```
 
 **Ubuntu**
 
