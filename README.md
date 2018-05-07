@@ -16,12 +16,14 @@ apt install ruby-dev libffi-dev
 
 
 ### Layout
-First draft located at `dev/layout`.
+Draft located at `dev/layout`.
 
 Link to prototype: https://xd.adobe.com/view/8ead2469-21eb-4d30-8fbf-0dca204b70ae/?fullscreen
 
 **Worklog**
 
-2018-03-05 I prototyped first section of navmenu "O nas".
+2018-04-24 Header is done! *clap* 
+2018-05-03 Early draft of navmenu section "O nas".
+2018-05-10 "O nas" will be done. I hope so.
 
 
