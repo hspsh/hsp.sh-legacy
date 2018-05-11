@@ -31,6 +31,6 @@ Link to prototype: https://xd.adobe.com/view/8ead2469-21eb-4d30-8fbf-0dca204b70a
 
 2018-05-03 Early draft of navmenu section "O nas".
 
-2018-05-10 "O nas" will be done. I hope so.
+2018-05-10 "O nas" will be done. ~I hope so~.
 
 
