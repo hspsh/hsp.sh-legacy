@@ -1,0 +1,13 @@
+<footer>
+    <div>
+        
+    <a href="{{ site.baseurl }}/"><img src="" alt="HS"></a>
+    {% assign menu = site.menus.header %}
+    {% include nav-links.html %}
+
+    {% assign menu = site.menus.quick %}
+    {% include nav-links.html %}
+
+    </div>
+    <div class="notice"><p>{{ site.copyright }}<p></div>
+</footer>
