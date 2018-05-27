@@ -9,35 +9,45 @@ body {
     min-height: 100vh;
 }
 
+header {
+    padding: 2em 1em;
+}
+
+.nav * {
+    display: inline-block;
+}
+
 .logo {
     width: 70%;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-}
+nav {
+    a {
+        color: white;
+        text-decoration: none;
+    }
 
-nav a::after {
-    content: " |";
-    color: red;
-}
+    a::after {
+        content: " |";
+        color: red;
+    }
 
-nav a:first-child::before {
-    content: "[ ";
-    color: white;
-}
+    a:first-child::before {
+        content: "[ ";
+        color: white;
+    }
 
-nav a:last-child::after {
-    content: " ]";
-    color: white;
+    a:last-child::after {
+        content: " ]";
+        color: white;
+    }
 }
 
 footer {
     background-color: #222;
 
     margin-top: auto;
-    
+
     .notice {
         background-color: #333;
     }

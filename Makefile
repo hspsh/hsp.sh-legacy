@@ -1,3 +1,6 @@
+build: init
+	bundle exec jekyll build
+
 init:
 	bundle install
 

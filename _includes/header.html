@@ -1,11 +1,13 @@
 <header>
-    {% if page.url == "/" %}
-        {% assign menu = site.menus.quick %}
-        {% include nav-links.html %}
-    {% else %}
-        <a href="{{ site.baseurl }}/"><img src="" alt="small logo"></a>
-    {% endif %}
+    <div class="nav">
+        {% if page.url == "/" %}
+            {% assign menu = site.menus.quick %}
+            {% include nav-links.html %}
+        {% else %}
+            <a href="{{ site.baseurl }}/"><img src="" alt="small logo"></a>
+        {% endif %}
 
-    {% assign menu = site.menus.header %}
-    {% include nav-links.html %}
+        {% assign menu = site.menus.header %}
+        {% include nav-links.html %}
+    </div>
 </header>
