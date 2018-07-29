@@ -1,7 +1,10 @@
-{% if menu %}
-<nav>
-{% for item in menu %}
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title | lowercase }}</a>
+{% comment %}
+	:param menu: list of links with url and title fields
+
+	Usage:
+	 {% include nav-menu.html menu=variable %}
+{% endcomment %}
+{% for item in include.menu %}
+    <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title | lowercase }}</a>
 {% endfor %}
-</nav>
-{% endif %}
+

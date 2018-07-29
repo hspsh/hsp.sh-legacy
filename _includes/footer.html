@@ -2,11 +2,12 @@
     <div class="nav">
         
     <a href="{{ site.baseurl }}/"><img src="" alt="HS"></a>
-    {% assign menu = site.menus.header %}
-    {% include nav-links.html %}
-
-    {% assign menu = site.menus.quick %}
-    {% include nav-links.html %}
+    <nav>
+	    {% include nav-links.html menu=site.menus.header %}
+    </nav>
+    <nav>
+	    {% include nav-links.html menu=site.menus.quick %}
+    </nav>
 
     </div>
     <div class="notice"><p>{{ site.copyright }}</p></div>
