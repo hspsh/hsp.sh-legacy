@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import "variables";
+
+* {
+    font-family: $font-family;
+}
+
 body {
     background-color: #111111;
     color: white;
-    font-family: "Lucida Console", Monaco, monospace;
     margin: 0;
 
     display: flex;
@@ -13,53 +19,28 @@ header {
     padding: 2em 1em;
 }
 
-.nav * {
-    display: inline-block;
-}
-
 .logo {
     width: 70%;
 }
 
-nav {
+header nav {
+
     a {
         color: white;
         text-decoration: none;
     }
-
     a::after {
         content: " |";
         color: red;
     }
-
     a:first-child::before {
         content: "[ ";
         color: white;
     }
-
     a:last-child::after {
         content: " ]";
         color: white;
     }
 }
 
-footer {
-    background-color: #222;
-
-    margin-top: auto;
-
-    .notice {
-        background-color: #333;
-    }
-
-    div {
-        padding: 1em 3em;
-        margin-top: 1em;
-    }
-
-    nav {
-        a::after, a:first-child::before, a:last-child::after {
-        content: "";
-        }
-    }
-}
+@import "footer";

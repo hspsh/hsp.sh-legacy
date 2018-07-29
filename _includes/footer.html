@@ -1,14 +1,18 @@
 <footer>
-    <div class="nav">
-        
-    <a href="{{ site.baseurl }}/"><img src="" alt="HS"></a>
-    <nav>
-	    {% include nav-links.html menu=site.menus.header %}
-    </nav>
-    <nav>
-	    {% include nav-links.html menu=site.menus.quick %}
-    </nav>
+    <section class="footer__navigation">
 
-    </div>
-    <div class="notice"><p>{{ site.copyright }}</p></div>
+        <a href="{{ site.baseurl }}/">
+            <img src="" alt="HS">
+        </a>
+        <nav>
+            {% include nav-links.html menu=site.menus.header %}
+        </nav>
+        <nav class="socials">
+            {% include nav-links.html menu=site.menus.quick %}
+        </nav>
+
+    </section>
+    <section class="footer__notice">
+        <p>{{ site.copyright }}</p>
+    </section>
 </footer>
