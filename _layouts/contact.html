@@ -3,9 +3,31 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<div>
-    {{ content }}
-</div>
-<div>
-    {% include location-map.html %}
-</div>
+<section class="contact__cta" style="background: red">
+	<p>
+		Napisz do nas, ktoś z członków odezwie się do ciebie
+	</p>
+	<form name="contact" method="POST" netlify>
+		<p>
+			<label>Email: </label>
+			<input type="text" name="name" />
+		</p>
+		<p>
+			<label>Message: </label>
+			<textarea name="message"></textarea>
+		</p>
+		<div data-netlify-recaptcha></div>
+		<p>
+			<button type=”submit”>Send</button>
+		</p>
+	</form>
+</section>
+
+<section class="contact__info">
+	<div>
+		{{ content }}
+	</div>
+	<div>
+		{% include location-map.html %}
+	</div>	
+</section>
