@@ -3,24 +3,33 @@ footer {
     font-size: 13px;
     background-color: $cool-grey;
     margin-top: auto;
+
     .footer__navigation {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+
         .socials {
-            display: block;
+            margin-left: auto;
+        }
+        
+        nav > a {
+            margin-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
         }
     }
-    a {
-        text-decoration: none;
-        color: $white;
-        text-transform: lowercase;
+
+    section {
+        padding: 1em 3em;
+        margin-top: 1em;
     }
-    nav {
-        display: inline-block;
-    }
+
     .footer__notice {
         display: flex;
-        justify-content: space-around;
-        // align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: $coolest-grey;
         p {
             display: inline-block;
@@ -34,14 +43,11 @@ footer {
             }
 
             &:last-of-type {
+                margin-left: 40px;
                 &:after {
                     content: none;
                 }
             }
-        }
-        section {
-            padding: 1em 3em;
-            margin-top: 1em;
         }
     }
 }

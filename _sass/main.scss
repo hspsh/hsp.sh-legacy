@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
-@import "variables";
+@import "common/variables";
+@import "partials/header";
+@import "partials/footer";
+@import "views/landing";
 
 * {
     font-family: $font-family;
@@ -15,9 +18,15 @@ body {
     min-height: 100vh;
 }
 
+a {
+    color: $white;
+    text-decoration: underline;
 
+    &:hover {
+        color: $hacker-red;
+    }
 
-@import "header";
-@import "footer";
-
-@import "landing";
+    &:active {
+        color: #bb0000;
+    }
+}
