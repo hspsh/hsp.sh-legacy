@@ -1,3 +1,4 @@
+---
 layout: page
 title: Sierpień Opensource
 menus: header
