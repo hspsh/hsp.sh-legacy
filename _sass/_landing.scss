@@ -1,0 +1,24 @@
+.landing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	flex: 1 1 auto;
+
+	.logo {
+		display: flex;
+		justify-content: center;
+		img {
+		    width: 500px;
+		}
+	}
+
+	.thing {
+		max-width: 50%;
+
+	}
+	.content {
+		text-align:center;
+	}
+}

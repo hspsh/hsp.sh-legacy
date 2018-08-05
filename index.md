@@ -4,6 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<!-- ten content ląduje w miejsce home'a, bo jest zaznaczony layout: home -->
-
-Tworzymy przestrzeń, która umożliwi wymianę wiedzy i doświadczeń, rozwijanie kompetencji technologicznych, a także rozwój własnych projektów.
+Hackerspace to przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści oraz artyści i humaniści.
