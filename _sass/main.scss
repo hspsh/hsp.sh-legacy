@@ -15,36 +15,9 @@ body {
     min-height: 100vh;
 }
 
-header {
-    padding: 2em 1em;
-}
 
-.logo {
-    width: 70%;
-}
 
-.header__logo {
-        height: 1em;
-    }
-
-header nav {
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    a::after {
-        content: " |";
-        color: red;
-    }
-    a:first-child::before {
-        content: "[ ";
-        color: white;
-    }
-    a:last-child::after {
-        content: " ]";
-        color: white;
-    }
-}
-
+@import "header";
 @import "footer";
+
+@import "landing";
