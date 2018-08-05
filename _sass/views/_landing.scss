@@ -19,6 +19,13 @@
 
 	}
 	.content {
-		text-align:center;
+		text-align: justify;
+	}
+
+	.landing__cta {
+		text-align: center;
+		a {
+			color: $hacker-red;
+		}
 	}
 }
