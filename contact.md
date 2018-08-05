@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: kontakt, dojazd
+title: mapa & dane dojazdu
 menus: header
 ---
 

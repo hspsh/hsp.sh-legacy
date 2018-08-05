@@ -3,32 +3,45 @@ footer {
     font-size: 13px;
     background-color: $cool-grey;
     margin-top: auto;
-
     .footer__navigation {
         display: inline-block;
-    
         .socials {
             display: block;
         }
-
     }
-
     a {
         text-decoration: none;
         color: $white;
         text-transform: lowercase;
     }
-
     nav {
         display: inline-block;
     }
-
     .footer__notice {
+        display: flex;
+        justify-content: space-around;
+        // align-content: space-around;
         background-color: $coolest-grey;
-    }
+        p {
+            display: inline-block;
+            &:after {
+                content: "";
+                position: absolute;
+                height: 15px;
+                width: 2px;
+                background: $white;
+                margin-left: 15px;
+            }
 
-    section {
-        padding: 1em 3em;
-        margin-top: 1em;
+            &:last-of-type {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+        section {
+            padding: 1em 3em;
+            margin-top: 1em;
+        }
     }
 }
