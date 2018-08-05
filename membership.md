@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Członkostwo
+title: członkostwo
 permalink: /membership/
 menus: header
 ---
