@@ -27,12 +27,12 @@ menus: header
 <img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-<h3 id="bank">Dane do przelewu - jeśli nie podoba Ci się patronite</h3>
+### Dane do przelewu
 
-<p>
+```
 Tytuł: Na cele statutowe - HS <br>
 Konto: PL 39 1140 2004 0000 3302 7648 8799 <br>
 Kto: Fundacja CODE:ME <br>
-Adres: ul.Lęborska 3b, 80-386 Gdańsk <br>
-<br>
-</p>
+al. Wojska Polskiego 41, 80-268 Gdańsk <br>
+```
+
