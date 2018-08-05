@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contact
 title: kontakt
 permalink: /contact/
 menus: header

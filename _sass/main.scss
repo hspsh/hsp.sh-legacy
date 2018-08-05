@@ -3,6 +3,7 @@
 @import "partials/header";
 @import "partials/footer";
 @import "views/landing";
+@import "views/contact";
 
 * {
     font-family: $font-family;
@@ -31,7 +32,7 @@ a {
     }
 }
 
-main {
+.container {
 	padding: 3em;
     img {
         max-width: 100%;

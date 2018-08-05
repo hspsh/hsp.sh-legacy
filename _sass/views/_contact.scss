@@ -1,0 +1,17 @@
+.contact__cta {
+	background: $cracker-red;
+	p {
+		display: flex;
+		
+	}
+
+	input, textarea, button {
+		flex: 1;
+		color: $white;
+		font-family: $font-family;
+		border: 1px solid $white;
+		background-color: transparent;
+		padding: 0.5em;
+		width: auto;
+	}
+}
