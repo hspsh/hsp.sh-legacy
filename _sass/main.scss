@@ -42,3 +42,27 @@ a {
 main {
     margin-bottom: 2em;
 }
+
+.partners {
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+      max-height:5em;
+      width: auto;
+      height: auto;
+    }
+
+}
+
+img {
+      .sponsor > & {
+        max-height: 7em;
+      }
+
+      .partner > & {
+        max-height: 5em;
+      }
+}
