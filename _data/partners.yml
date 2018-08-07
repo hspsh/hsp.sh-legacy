@@ -2,10 +2,29 @@
 # :param type: dodaje klasę css odpowiednią do typu {sponsor, partner}
 ---
 - name: ADVA Optical Networking
-  image: /assets/images/partners/adva.png
+  image: adva.png
   type: sponsor
-  homepage: \#
+  homepage: "#"
+
 - name: Dynatrace
-  image: /assets/images/partners/dynatrace.png
+  image: dynatrace.png
   type: sponsor
-  homepage: \#
+  homepage: "#"
+
+- name: PyGda
+  image: null
+  type: partner
+  homepage: "#"
+
+- name: PyData
+  image: null
+  type: partner
+  homepage: "#"
+
+- name: mlGdansk
+  image: null
+  type: partner
+  homepage: "#"
+
+- name: botland
+  image: botland.png
