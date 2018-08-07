@@ -14,7 +14,7 @@
 - name: PyGda
   image: pygda.png
   type: partner
-  homepage: "#"
+  homepage: https://www.meetup.com/pl-PL/PyGda-pl
 
 - name: PyData
   image: pydata.png
