@@ -12,19 +12,21 @@
   homepage: "#"
 
 - name: PyGda
-  image: null
+  image: pygda.png
   type: partner
   homepage: "#"
 
 - name: PyData
-  image: null
+  image: pydata.png
   type: partner
   homepage: "#"
 
 - name: mlGdansk
-  image: null
+  image: mlgdansk.png
   type: partner
   homepage: "#"
 
 - name: botland
   image: botland.png
+  type: partner
+  homepage: "#"
