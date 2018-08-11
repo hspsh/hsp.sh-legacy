@@ -1,0 +1,32 @@
+# lista partnerow spejsu, stworzona aby ulatwic generowanie listy
+# :param type: dodaje klasę css odpowiednią do typu {sponsor, partner}
+---
+- name: ADVA Optical Networking
+  image: adva.png
+  type: sponsor
+  homepage: "#"
+
+- name: Dynatrace
+  image: dynatrace.png
+  type: sponsor
+  homepage: "#"
+
+- name: PyGda
+  image: pygda.png
+  type: partner
+  homepage: https://www.meetup.com/pl-PL/PyGda-pl
+
+- name: PyData
+  image: pydata.png
+  type: partner
+  homepage: "#"
+
+- name: mlGdansk
+  image: mlgdansk.png
+  type: partner
+  homepage: "#"
+
+- name: botland
+  image: botland.png
+  type: partner
+  homepage: "#"
