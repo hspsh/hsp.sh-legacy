@@ -1,0 +1,31 @@
+@mixin phone() {
+    @media only screen and (max-width: $phone-width) {
+        @content;
+    }
+}
+
+@mixin above-phone() {
+    @media only screen and (min-width: $phone-width + 1px) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media only screen 
+        and (min-width: $phone-width + 1px)
+        and (max-width: $tablet-width) {
+            @content;
+    }
+}
+
+@mixin desktop() {
+    @media only screen and (min-width: $tablet-width + 1px) {
+        @content;
+    }
+}
+
+@mixin below-desktop() {
+    @media only screen and (max-width: $tablet-width - 1px) {
+        @content;
+    }
+}
