@@ -5,6 +5,5 @@
 	 {% include nav-menu.html menu=variable %}
 {% endcomment %}
 {% for item in include.menu %}
-    <a href="{{ item.url }}" title="{{ item.title }}">{{ item.title | lowercase }}</a>
-{% endfor %}
+<a href="{{ item.url }}" title="{{ item.title }}" class="navigation-link">{{ item.title }}</a>{% endfor %}
 

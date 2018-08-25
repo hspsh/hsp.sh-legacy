@@ -1,0 +1,62 @@
+@import "../common/variables";
+
+.page-navigation {
+    $page-navigation-height: 24px;
+
+    height: $page-navigation-height;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 0;
+    vertical-align: middle;
+
+    &::after,    
+    &::before {
+        position: relative;
+        color: $white;
+        font-size: $page-navigation-height;
+        padding: 0 8px;
+    }
+
+    &::before {
+        content: "[";
+    }
+
+    &::after {
+        content: "]";
+    }
+
+    .navigation-link {
+        &::after {
+            content: "";
+            position: relative;
+            margin: 0 8px;
+            right: 0;
+            top: 2px;
+            bottom: 2px;
+            border-right: 3px solid $hacker-red;
+        }
+
+        &:last-child::after {
+            content: none;
+        }
+    }
+}
+
+.navigation-link {
+    vertical-align: middle;
+    line-height: 24px;
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: $white;
+
+    &:hover {
+        color: $hacker-red;
+    }
+
+    &:focus {
+        color: $cracker-red;
+    }
+}
