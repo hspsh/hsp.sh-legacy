@@ -1,0 +1,37 @@
+* {
+    font-family: $font-family;
+}
+
+body {
+    background-color: #111111;
+    color: white;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: $white;
+    text-decoration: underline;
+
+    &:hover {
+        color: $hacker-red;
+    }
+
+    &:active {
+        color: #bb0000;
+    }
+}
+
+.container {
+	padding: 3em;
+    img {
+        max-width: 100%;
+    }
+}
+
+main {
+    margin-bottom: 2em;
+}
