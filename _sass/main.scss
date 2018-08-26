@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import "common/typography";
 @import "common/variables";
 @import "common/mixins";
 @import "common/global";
 @import "partials/header";
 @import "partials/footer";
+@import "partials/navigation";
 @import "views/landing";
 @import "views/contact";

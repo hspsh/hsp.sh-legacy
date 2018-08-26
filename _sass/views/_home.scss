@@ -1,0 +1,26 @@
+.main-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	flex: 1 1 auto;
+
+	.logo {
+		width: 500px;
+		height: 100%;
+	}
+
+	.content {
+		max-width: 600px;
+		width: 80%;
+		margin: 3em;
+	}
+
+	.cta {
+		text-align: center;
+		
+		a {
+			color: $hacker-red;
+		}
+	}
+}
