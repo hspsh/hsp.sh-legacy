@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/*======================================================================
+                        typography mixins
+=======================================================================*/
 
 $fluid-type-min-vw: 320px;
 $fluid-type-max-vw: 1200px;
@@ -30,6 +35,47 @@ $max-font-size: 24px;
 
 @mixin fluid-font-size() {
     @include fluid-type($fluid-type-min-vw, $fluid-type-max-vw, $min-font-size, $max-font-size) {
-        
     }
+}
+
+/*======================================================================
+                        typography definition
+=======================================================================*/
+
+@mixin typography($font-size: 13px, $font-weight: 400, $line-height: 1, $letter-spacing: normal) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+}
+
+h1 {
+    @include typography(67px, 600, .657, 1.49em);
+    font-family: $font-family-2;
+    text-align: center;
+    color: $white;
+}
+
+h2 {
+    @include typography(28px, 600, 1.57, 6.43em);
+    font-family: $font-family-2;
+    color: $white;
+}
+
+h5 {
+    @include typography(28px, 400, 1.57, 0);
+    font-family: $font-family;
+    color: $white;
+}
+
+h6 {
+    @include typography(21px, 400, 0.19, 0);
+    font-family: $font-family;
+    color: $white;
+}
+
+p {
+    @include typography(28px, 400, 1.57, 0);
+    font-family: $font-family;
+    color: $white;
 }
