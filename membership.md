@@ -29,8 +29,9 @@ Jeśli masz firmę lub fajnego szefa to daj nam znać a podeślemy Ci prezentacj
 
 ### Dane do przelewu
 
+```
 Tytuł: Na cele statutowe - HS
 Konto: PL 39 1140 2004 0000 3302 7648 8799
 Kto: Fundacja CODE:ME
 al. Wojska Polskiego 41, 80-268 Gdańsk
-
+```
