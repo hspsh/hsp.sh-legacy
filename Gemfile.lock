@@ -67,7 +67,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.7)
+  jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
   jekyll-menus
   jekyll-tidy
