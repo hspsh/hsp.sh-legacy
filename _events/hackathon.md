@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hackathon świąteczny
+title: Hackathon Świąteczny
 date: 2017-12-15
 ---
 
