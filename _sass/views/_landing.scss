@@ -1,7 +1,15 @@
+.landing_svg {
+	background: url(/assets/home-bg.svg) $bg-grey no-repeat center center;
+	background-size: 800px;
+	fill: #212121;
+}
+
 .landing {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+
 
 
 	flex: 1 1 auto;

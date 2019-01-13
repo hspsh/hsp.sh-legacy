@@ -8,7 +8,7 @@ Aby zostać członkiem musisz opłacic składki w całości zużywane na utrzyma
 
 Po opłaceniu składki zapraszamy na kilka spotkań byśmy się poznali. Kiedy dostaniesz polecnie dwóch członków rady HSu i jednego członka zwykłego dostaniesz klucz do lokalu. Będziesz wtedy przez 3 msc na okresie próbnym. Po czym rada przeprowadzi głosowanie czy przyznać Ci członkostwo.
 
-Nicki członków rady na slacku: @amadeusz, @jakub, @upgrade, @laracroft, @mroz, @marcin, @jogurt, @rrr, @szymonk, @wojtek
+Nicki członków rady na slacku: @amadeusz, @laracroft, @marcin, @jogurt, @rrr, @patwys, @not7cd
 
 ## Dostęp do slacka - systemu dla członków i lokalnej społeczności IT
 Nasz slack używany jest przez lokalną społeczność IT i nie tylko (biotech i inne) do tworzenia kanałów na których dzielimy się wiedzą i sobie pomagamy. Prowadzimy tam też wewnętrzną komunikację członków na zamkniętych kanałach
@@ -29,8 +29,9 @@ Jeśli masz firmę lub fajnego szefa to daj nam znać a podeślemy Ci prezentacj
 
 ### Dane do przelewu
 
+```
 Tytuł: Na cele statutowe - HS
 Konto: PL 39 1140 2004 0000 3302 7648 8799
 Kto: Fundacja CODE:ME
 al. Wojska Polskiego 41, 80-268 Gdańsk
-
+```

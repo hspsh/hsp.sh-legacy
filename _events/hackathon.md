@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Hackathon świąteczny
-permalink: /hackathon/
+layout: event
+title: Hackathon Świąteczny
+date: 2017-12-15
 ---
 
 Zapisy: [<a href="https://hackathonswiateczny.evenea.pl" target="_blank">hackathonswiateczny.evenea.pl</a>]
