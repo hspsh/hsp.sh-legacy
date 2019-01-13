@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: event
 title: Hackathon Świąteczny
 date: 2017-12-15
 ---

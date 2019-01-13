@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: event
 title: Game Jam
 date: 2017-01-20
 ---
