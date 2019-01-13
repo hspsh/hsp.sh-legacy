@@ -29,7 +29,7 @@ github_username:  hs3city
 collections:
   events:
     output: true
-    permalink: /:collection/:year/:name
+    permalink: /:collection/:year/:slug
 
 # Build settings
 markdown: kramdown

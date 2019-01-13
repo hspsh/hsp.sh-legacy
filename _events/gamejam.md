@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Game Jam
+date: 2017-01-20
 ---
 
 <iframe src="https://gamejam.evenea.pl?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
