@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Hackathon świąteczny
-permalink: /hackathon/
 ---
 
 Zapisy: [<a href="https://hackathonswiateczny.evenea.pl" target="_blank">hackathonswiateczny.evenea.pl</a>]

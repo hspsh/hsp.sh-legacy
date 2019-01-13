@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Game jam
-permalink: /gamejam/
+title: Game Jam
 ---
 
 <iframe src="https://gamejam.evenea.pl?out=1&source=event_iframe" width="100%" scrolling="no" style="border: 0;"></iframe>
