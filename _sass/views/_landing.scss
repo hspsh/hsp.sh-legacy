@@ -9,16 +9,14 @@
 	align-items: center;
 	justify-content: center;
 
-
-
-
 	flex: 1 1 auto;
 
 	.logo {
 		display: flex;
 		justify-content: center;
 		img {
-		    width: 500px;
+			width: -webkit-fill-available;
+		    max-width: 500px;
 		    height: 100%;
 		}
 	}
