@@ -1,17 +1,20 @@
 ---
-layout: default
+layout: meta
 ---
-
-<main class="landing">
-	
-	
-<div class="thing">
-	<div class="logo">
-	    <img src="/assets/logo_white_full.png">
+<body class="landing_svg">
+    {% include header.html %}
+	<main class="landing">
+		
+		
+	<div class="thing">
+		<div class="logo">
+		    <img src="/assets/logo_white_full.png">
+		</div>
+		<div class="content">
+			{{ content }}
+		</div>
+		<div class="landing__cta" ><a href="/about">czytaj_więcej();</a></div>
 	</div>
-	<div class="content">
-		{{ content }}
-	</div>
-	<div class="landing__cta" ><a href="/about">czytaj_więcej();</a></div>
-</div>
-</main>
+	</main>
+    {% include footer.html %}
+</body>
