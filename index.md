@@ -5,4 +5,4 @@
 title: Home
 layout: home
 ---
-Hackerspace to przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, dla których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści oraz artyści i humaniści.
+Hackerspace to przestrzeń łącząca pasjonatów technologii, hakerów oraz specjalistów wielu nauk technicznych, z różnych piwnic i na różnym etapie rozwoju zawodowego. Nasze szeregi zasilają zarówno ludzie z branży IT jak i młodzi entuzjaści, inżynierowie, biolodzy, majsterkowicze, hobbyści oraz artyści i humaniści.
