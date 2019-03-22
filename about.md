@@ -22,6 +22,3 @@ Dążymy do stworzenia społeczności, będącej lokalną, oddolną inicjatywą 
 
 #### Patroni
 Większość naszego budżetu pochodzi ze [składek członkowskich](/membership), ale mamy też patronów, którzy wspierają Hacker:Space.
-
-![Patron: Dynatrace](/assets/images/sponsor_dynatrace.png)
-![Patron: Adva optical networking](/assets/images/sponsor_adva.png)
