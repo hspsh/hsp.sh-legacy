@@ -1,5 +1,7 @@
-# marvelous-snuffle
-Project of new hs3.pl site.
+# hs3.pl
+###### CODENAME marvelous-snuffle
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d61529cf-7e8a-4de7-927c-5358cf4d7fa5/deploy-status)](https://app.netlify.com/sites/naughty-volhard-02c8b8/deploys)
 
 
 ```bash
