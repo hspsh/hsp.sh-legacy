@@ -4,19 +4,16 @@ title: członkostwo
 permalink: /membership/
 menus: header
 ---
-Aby zostać członkiem musisz opłacic składki w całości zużywane na utrzymaie HS. [Jako organizacja non profit opieramy się na wsparciu lokalnej społeczności.](https://patronite.pl/hs3) Potrzebujemy pieniędzy na pokrycie stałych kosztów wynajmu lokalu. Wszelki nadmiar gotówki zostaje przeznaczony na zebranie pieniężnej trzymiesięcznej "żelaznej racji" oraz zakup sprzętu. Jeśli dysponujesz dodatkowym groszem lub masz u siebie, w firmie lub u znajomych sprzęt na zdanie, to daj nam znać.
 
-Po opłaceniu składki zapraszamy na kilka spotkań byśmy się poznali. Kiedy dostaniesz polecnie dwóch członków rady HSu i jednego członka zwykłego dostaniesz klucz do lokalu. Będziesz wtedy przez 3 msc na okresie próbnym. Po czym rada przeprowadzi głosowanie czy przyznać Ci członkostwo.
+Przede wszystkim wpadnij na jakieś interesujące Cię wydarzenie i poznaj ludzi (/calendar). W piątki mamy zazwyczaj drzwi otwarte - to świetna okazja, żeby poznać członków i dowiedzieć się czym jest HS. W razie czego można też przyjść w inne dni, ale wtedy skontaktuj się z nami wcześniej, bo nie wiadomo czy ktoś będzie akurat siedział (/contact).
 
-Nicki członków rady na slacku: @amadeusz, @laracroft, @marcin, @jogurt, @rrr, @patwys, @not7cd, @allgreed
+Członkostwo daje Ci dostęp do lokalu (własna karta do drzwi) oraz większe możliwości współtworzenia spejsu. Zdobycie członkostwa wymaga przede wszystkim poznania członków i zdobycia 3 okejek. Okejki są sygnałem, że ktoś za Ciebie poręczył. Drugi wymóg to pomaganie HSowi w utrzymaniu lokalu poprzez wpłacanie 100 PLN/msc. przez minimum 3 miesiące.
 
 ## Dostęp do slacka - systemu dla członków i lokalnej społeczności IT
-Nasz slack używany jest przez lokalną społeczność IT i nie tylko (biotech i inne) do tworzenia kanałów na których dzielimy się wiedzą i sobie pomagamy. Prowadzimy tam też wewnętrzną komunikację członków na zamkniętych kanałach
+Nasz slack używany jest przez członków i sympatyków HSu do tworzenia kanałów na których dzielimy się wiedzą i sobie pomagamy. Prowadzimy tam też wewnętrzną komunikację członków na zamkniętych kanałach
 [Skontaktuj się z nami, aby dostać dostęp](/contact), albo [przyjdź do nas](/calendar)
 
-Hackerspace Trójmiasto jest grupą utrzmującą się przede wszystkim ze składek członkowskich, a także ze wsparcia lokalnej społeczności. Aby móc tworzyć niesamowite urządzenia i udostępniać infrastrukturę do pracy, potrzebujemy pieniędzy na stałe koszty i sprzęt. Wszelki nadmiar przeznaczamy na zakup dodatkowych narzędzi i elektroniki. Jeżeli dysponujesz dodatkowym groszem lub masz w firmie, u siebie lub znajomych zbędny sprzęt, to daj nam znać.
-
-Jeśli masz firmę lub fajnego szefa to daj nam znać a podeślemy Ci prezentację dla sponsorów. Każde wsparcie w utrzymaniu lokalu nam pomoże. Staramy się też wspierać w zamian za wsparcie w utrzymaniu lokalu.
+Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nam pomóc, to daj nam znać, jesteśmy otwarci na współpracę.
 
 ### Paypal
 
