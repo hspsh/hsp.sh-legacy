@@ -13,7 +13,7 @@ Członkostwo daje Ci dostęp do lokalu (własna karta do drzwi) oraz większe mo
 Nasz slack używany jest przez członków i sympatyków HSu do tworzenia kanałów na których dzielimy się wiedzą i sobie pomagamy. Prowadzimy tam też wewnętrzną komunikację członków na zamkniętych kanałach
 [Skontaktuj się z nami, aby dostać dostęp](/contact), albo [przyjdź do nas](/calendar)
 
-Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nam pomóc, to daj nam znać -- podeślemy Ci prezentację dla sponsorów.
+Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nam pomóc, to daj nam znać, jesteśmy otwarci na współpracę.
 
 ### Paypal
 
