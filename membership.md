@@ -5,7 +5,7 @@ permalink: /membership/
 menus: header
 ---
 
-Przede wszystkim wpadnij na jakieś interesujące Cię wydarzenie i poznaj ludzi (/calendar). W piątki mamy zazwyczaj drzwi otwarte - to świetna okazja, żeby poznać członków i dowiedzieć się czym jest HS. W razie czego można też przyjść w inne dni, ale wtedy skontaktuj się z nami wcześniej, bo nie wiadomo czy ktoś będzie akurat siedział (/contact).
+Przede wszystkim wpadnij na jakieś [interesujące Cię wydarzenie i poznaj ludzi](/calendar). W piątki mamy zazwyczaj drzwi otwarte - to świetna okazja, żeby poznać członków i dowiedzieć się czym jest HS. W razie czego można też przyjść w inne dni, ale wtedy [skontaktuj się z nami wcześniej](/contact), bo nie wiadomo czy ktoś będzie akurat siedział.
 
 Członkostwo daje Ci dostęp do lokalu (własna karta do drzwi) oraz większe możliwości współtworzenia spejsu. Zdobycie członkostwa wymaga przede wszystkim poznania członków i zdobycia 3 okejek. Okejki są sygnałem, że ktoś za Ciebie poręczył. Drugi wymóg to pomaganie HSowi w utrzymaniu lokalu poprzez wpłacanie 100 PLN/msc. przez minimum 3 miesiące.
 
