@@ -8,6 +8,7 @@
  * http://terminal.jcubic.pl
  *
  * This file is part of jQuery Terminal.
+ * 
  *
  * Copyright (c) 2011-2019 Jakub Jankiewicz <https://jcubic.pl/me>
  * Released under the MIT license
@@ -160,8 +161,8 @@ body.full-screen-terminal .terminal {
     height: auto;
 }
 .terminal .terminal-output > div > div, .cmd div {
-    min-height: 12px;
-    min-height: calc(var(--size, 1) * 12px);
+/*    min-height: 12px;*/
+/*    min-height: calc(var(--size, 1) * 12px);*/
 }
 .terminal .terminal-output > div:not(.raw) div {
     white-space: nowrap;
@@ -176,15 +177,15 @@ body.full-screen-terminal .terminal {
 .cmd,
 .cmd span,
 .cmd div {
-    font-family: monospace;
+    font-family: "Inconsolata", monospace;
     /*font-family: FreeMono, monospace; this don't work on Android */
-    font-size: 12px;
+/*    font-size: 12px;*/
     line-height: 14px;
 }
 .terminal-output > :not(.raw) span:not(.token):not(.inverted):not(.error):not(.emoji),
 .cmd span:not(.inverted):not(.token):not(.emoji) {
     color: #aaa;
-    background-color: #000;
+    /*background-color: #000;*/
 }
 .terminal-output > :not(.raw) .emoji, .cmd .emoji {
     height: 14px;
@@ -465,13 +466,13 @@ terminal .terminal-output > div {
     @keyframes terminal-underline {
         0%, 50% {
             border-bottom-color: var(--color, #aaa);
-            line-height: 12px;
-            line-height: calc(var(--size, 1) * 12px);
+/*            line-height: 12px;*/
+/*            line-height: calc(var(--size, 1) * 12px);*/
         }
         50.1%, 100% {
             border-bottom-color: var(--background, #000);
-            line-height: 12px;
-            line-height: calc(var(--size, 1) * 12px);
+/*            line-height: 12px;*/
+/*            line-height: calc(var(--size, 1) * 12px);*/
         }
     }
 }
@@ -596,7 +597,7 @@ terminal .terminal-output > div {
     box-sizing: border-box;
 }
 .terminal, .terminal .terminal-fill {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 /* padding added as margin to .cmd to fix FireFox bug see: https://stackoverflow.com/q/29986977/387194 */
 .terminal {
@@ -614,7 +615,7 @@ terminal .terminal-output > div {
     .cmd span:not(.inverted):not(.token):not(.emoji),
     .cmd div {
         color: var(--color, #aaa);
-        background-color: var(--background, #000);
+        /*background-color: var(--background, #000);*/
     }
     .terminal span[style*="--length"] {
         /*
@@ -631,7 +632,7 @@ terminal .terminal-output > div {
     .cmd,
     .cmd span,
     .cmd div {
-        font-size: calc(var(--size, 1) * 12px);
+/*        font-size: calc(var(--size, 1) * 12px);*/
         line-height: calc(var(--size, 1) * 14px);
     }
     .terminal-output > :not(.raw) .emoji, .cmd .emoji {
@@ -774,3 +775,8 @@ terminal .terminal-output > div {
     }
 }
 */
+
+.terminal, .cmd, .terminal .terminal-output div div, .cmd .prompt {
+    font-size: 16px;
+    line-height: 18px;
+}
