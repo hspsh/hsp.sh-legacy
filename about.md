@@ -25,7 +25,7 @@ Większość naszego budżetu pochodzi ze [składek członkowskich](/membership)
 
 ##### Partner strategiczny
 
-[![CODE:ME](/assets/images/partners/w-codeme.png)](https://codeme.pl/)
+[<img src="/assets/images/partners/w-codeme.png" width="200px" height="auto" />](https://codeme.pl/)
 
 ----
 
