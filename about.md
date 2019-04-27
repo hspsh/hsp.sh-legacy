@@ -29,7 +29,7 @@ Większość naszego budżetu pochodzi ze [składek członkowskich](/membership)
 
 ----
 
-[0] [https://pl.wikipedia.org/wiki/Hackerspace](https://pl.wikipedia.org/wiki/Hackerspace)
-[1] [https://pl.wikipedia.org/wiki/Społeczność_hakerów](https://pl.wikipedia.org/wiki/Spo%C5%82eczno%C5%9B%C4%87_haker%C3%B3w)
-[2] [http://sokrates.mimuw.edu.pl:80/~sebek/hacker-howto.html](https://web.archive.org/web/20060701154700/http://sokrates.mimuw.edu.pl:80/~sebek/hacker-howto.html)
-[3] [http://catb.org/~esr/faqs/hacker-howto.html](http://catb.org/~esr/faqs/hacker-howto.html)
+[0] [https://pl.wikipedia.org/wiki/Hackerspace](https://pl.wikipedia.org/wiki/Hackerspace)  
+[1] [https://pl.wikipedia.org/wiki/Społeczność_hakerów](https://pl.wikipedia.org/wiki/Spo%C5%82eczno%C5%9B%C4%87_haker%C3%B3w)  
+[2] [http://sokrates.mimuw.edu.pl:80/~sebek/hacker-howto.html _tłumaczenie, archive.org_](https://web.archive.org/web/20060701154700/http://sokrates.mimuw.edu.pl:80/~sebek/hacker-howto.html)  
+[3] [http://catb.org/~esr/faqs/hacker-howto.html](http://catb.org/~esr/faqs/hacker-howto.html)  
