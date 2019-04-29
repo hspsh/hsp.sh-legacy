@@ -30,6 +30,9 @@ collections:
   events:
     output: true
     permalink: /:collection/:year/:slug
+  inicjatywy:
+    output: true
+    permalink: /:collection/:slug
 
 # Build settings
 markdown: kramdown
