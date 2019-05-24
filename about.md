@@ -23,7 +23,7 @@ Dążymy do stworzenia społeczności, będącej lokalną, oddolną inicjatywą 
 #### Patroni
 Większość naszego budżetu pochodzi ze [składek członkowskich](/membership), ale mamy też patronów, którzy wspierają Hacker:Space.
 
-##### Partner strategiczny
+##### Hackerspace to projekt fundacji CODE:ME
 
 [<img src="/assets/images/partners/w-codeme.png" width="200px" height="auto" />](https://codeme.pl/)
 
