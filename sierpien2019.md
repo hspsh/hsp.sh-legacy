@@ -1,10 +1,10 @@
 ---
-layout: default_no_title
+layout: event
+banner: /assets/sierpien2019/logo_bialy_tekst.png
 title: sierpień 2019
 permalink: /sierpien2019/
 menus: header
 ---
-![Sierpień Open Source 2019](/assets/sierpien2019/logo_bialy_tekst.png)
 
 Zapraszamy na drugie wydanie cyklu otwartych spotkań “Sierpień Open Source” w czasie których wszyscy zainteresowani będą mogli się zapoznać z narzędziami, kulturą, a szczególnie ze społecznością Open Source.
 
@@ -48,3 +48,5 @@ Bo możemy.
 ## Grafiki i propaganda
 Tutaj znajdują się linki do materiałów oraz grafik związanych z wydarzeniem - loga, ulotki itd. .
 
+ * [Wszystkie materialy w jednym archiwum - SierpienOpenSource2019.zip](http://54.37.139.87:8080/SierpienOpensource2019/SierpienOpenSource2019.zip)
+ * [Strona z materiałam](http://54.37.139.87:8080/SierpienOpensource2019/)
