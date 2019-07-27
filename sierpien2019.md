@@ -24,23 +24,25 @@ cztery soboty sierpnia:
 ## DLACZEGO?
 Bo możemy.
 ## Agenda
-* Dzień frontendu i nie tylko - 10 VIII,  15:00
+Kliknij na nazwę dnia, aby przejść do strony wydarzenia na facebook.
+
+* [Dzień frontendu i nie tylko - 10 VIII,  15:00](https://www.facebook.com/events/475307263306166/)
   * not7cd – kultura hackerska i OS vs FS
   * Iwan – Zrób sobie Endomondo
   * doomhammer – Jak zacząć w Open Source?
   * Michał – JavaScript podstawy
   * whoami – Vue.js wprowadzenie 
-* Uczenie maszyn i ludzi  – 17 VIII, 15:00
+* [Uczenie maszyn i ludzi  – 17 VIII, 15:00](https://www.facebook.com/events/877533529283916/)
   * rrr – Wprowadzenie do uczenia maszynowego
   * Amadeusz - Dobrodziejstwo Otwartych Źródeł w krainie Uczenia Głębokiego
   * stmi -Budowanie projektów Javowych z użyciem Apache Maven - wprowadzenie
   * justdzasta - Ucz siebie i innych w duchu open source
-* Dzień programisty – 24 VIII, 15:00
+* [Dzień programisty – 24 VIII, 15:00](https://www.facebook.com/events/2387764731499471/)
   * dreat – Co to jest git i dlaczego jest git
   * Leszek - Od kodu do deploymentu
   * allgreed - Jak testować? - wprowadzenie do walidacji na rapsie
   * patwys - Tworzenie gier w godot engine
-* Elektronika/IOT – 31 VIII, 11:00
+* [Elektronika/IOT – 31 VIII, 11:00](https://www.facebook.com/events/427547037858461/)
   * Inżynier Domu – LoRaWAN – TTN i Arduino
   * mroz,Mirek – Warsztaty – przegląd otwartych rozwiązań IOT dla domu
   * CritBit95 - How2elektronika - od pomysłu po własny elektrogadżet
