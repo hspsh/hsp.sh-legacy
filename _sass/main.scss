@@ -32,6 +32,15 @@ a {
     }
 }
 
+::selection {
+  background: $hacker-red;
+  color: $white;
+}
+::-moz-selection {
+  background: $hacker-red;
+  color: $white;
+}
+
 .container {
 	padding: 3em;
     img {
@@ -41,4 +50,10 @@ a {
 
 main {
     margin-bottom: 2em;
+}
+
+main.event{
+    max-width:1000px;
+    margin:auto;
+
 }
