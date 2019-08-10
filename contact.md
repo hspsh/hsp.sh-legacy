@@ -6,7 +6,7 @@ menus: header
 ---
 
 
-Aleja Wojska Polskiego 41, lokal schowany za budynkiem mieszkalnym Wojska Polskiego 39. Drugie szare drzwi.  
+Aleja Wojska Polskiego 41, 80-268 Gdańsk, lokal schowany za budynkiem mieszkalnym Wojska Polskiego 39. Drugie szare drzwi.  
 [9HQJ+VM Gdańsk, Polska](https://plus.codes/9F6W9HQJ+VM)
 
 [kontakt@hs3.pl](mailto:kontakt@hs3.pl?Subject=Strona%20HS3%20kontakt)
