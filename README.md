@@ -21,6 +21,12 @@ make serve
 apt install ruby-dev libffi-dev
 ```
 
+**Fedora**
+
+```
+dnf install redhat-rpm-config ruby-devel rubygem-bundler rubygem-jekyllmake
+```
+
 ### Structure
 
 Więc chcesz szybko dodać jakąś stronę?
