@@ -24,7 +24,7 @@ apt install ruby-dev libffi-dev
 ## Fedora
 
 ```
-dnf install redhat-rpm-config ruby-devel rubygem-bundler rubygem-jekyllmake
+dnf install redhat-rpm-config ruby-devel rubygem-bundler
 ```
 
 ## Structure
