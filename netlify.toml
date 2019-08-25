@@ -5,3 +5,27 @@
 [[redirects]]
   from = "/hackathon"
   to = "/events"
+  
+[[redirects]]   
+  from = "/donate"
+  to = "https://patronite.pl/hs3"
+  
+[[redirects]] 
+  from = "/facebook"
+  to = "https://www.facebook.com/hackerspacetrojmiasto"
+  
+[[redirects]]   
+  from = "/twitter"
+  to = "https://twitter.com/hs3city"
+  
+[[redirects]]   
+  from = "/meetup"
+  to = "https://meetup.com/hs3city"
+  
+[[redirects]]   
+  from = "/github"
+  to = "https://github.com/hs3city"
+  
+[[redirects]]   
+  from = "/patronite"
+  to = "https://patronite.pl/hs3"
