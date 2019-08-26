@@ -15,13 +15,19 @@ make
 make serve
 ```
 
-**Ubuntu**
+## Ubuntu
 
 ```
 apt install ruby-dev libffi-dev
 ```
 
-### Structure
+## Fedora
+
+```
+dnf install redhat-rpm-config ruby-devel rubygem-bundler
+```
+
+## Structure
 
 Więc chcesz szybko dodać jakąś stronę?
 Tutaj szybki pogląd na to jak wygląda sytuacja:
