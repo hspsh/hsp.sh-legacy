@@ -1,9 +1,15 @@
 ---
 quick:
-  - url: //wiki.hs3.pl
+  - url: https://wiki.hs3.pl
     title: wiki
-  - url: //fb.me/hackerspacetrojmiasto
+  - url: https://fb.me/hackerspacetrojmiasto
     title: fb
-  - url: //github.com/hs3city
-    title: git
+  - url: https://github.com/hs3city
+    title: github
+  - url: https://www.youtube.com/channel/UC0S_3TaYsMyRg3LWHH4Soig
+    title: youtube
+  - url: https://twitter.com/hs3city
+    title: twitter
+  - url: https://www.linkedin.com/company/hs3city/about/
+    title: linkedin
 ---
