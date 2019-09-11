@@ -27,6 +27,11 @@ apt install ruby-dev libffi-dev
 dnf install redhat-rpm-config ruby-devel rubygem-bundler
 ```
 
+## Arch
+Zainstaluj Ruby, Rubygems i Bundler:
+https://wiki.archlinux.org/index.php/Ruby
+
+
 ## Structure
 
 Więc chcesz szybko dodać jakąś stronę?
