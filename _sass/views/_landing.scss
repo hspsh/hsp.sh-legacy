@@ -8,16 +8,21 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	flex: 1 1 auto;
+
+	.thing {
+		max-width: 600px;
+		width: 80%;
+		margin: 3em;
+	}
 
 	.logo {
 		display: flex;
 		justify-content: center;
 		img {
 			width: -webkit-fill-available;
-		    max-width: 50ch;
-		    width: 100%;
+		    max-width: 500px;
+		    height: 100%;
 		}
 	}
 
