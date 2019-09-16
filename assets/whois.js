@@ -7,9 +7,9 @@ fetch('https://whois.at.hs3.pl/api/now')
       }
 
       response.json().then((data) => {
-        let message = `<i style="color:red">Zamknięte</i>`
-        if(data.headcount > 0) message = `<i style="color:lime">Otwarte</i>`
-        document.querySelector("#whois").innerHTML = `<a href="https://whois.at.hs3.pl">whois:</a> ${message} [${data.headcount}]`
+        let message = `<span style="color:red">Zamknięte</span>`
+        if(data.headcount > 0) message = `<span style="color:lime">Otwarte</span>`
+        document.querySelector("#whois").innerHTML = `<a href="https://whois.at.hs3.pl">whois:</a> ${message} <span title="${data.users.join(", ")}">[${data.headcount}]</span>`
       });
     }
   )
