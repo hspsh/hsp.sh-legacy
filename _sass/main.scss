@@ -42,18 +42,14 @@ a {
 }
 
 .container {
-	padding: 3em;
+    max-width: 100ch;
+    padding: 2ch;
+    margin: auto;
     img {
         max-width: 100%;
     }
 }
 
 main {
-    margin-bottom: 2em;
-}
-
-main.event{
-    max-width:1000px;
-    margin:auto;
-
+    width: 100%;
 }

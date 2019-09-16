@@ -8,8 +8,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	flex: 1 1 auto;
+
+	.thing {
+		max-width: 600px;
+		width: 80%;
+		margin: 3em;
+	}
 
 	.logo {
 		display: flex;
@@ -21,11 +26,6 @@
 		}
 	}
 
-	.thing {
-		max-width: 600px;
-		width: 80%;
-		margin: 3em;
-	}
 	.content {
 		text-align: justify;
 	}
