@@ -1,9 +1,8 @@
 ---
 layout: event
-banner: /assets/sierpien2019/logo_bialy_tekst.png
+banner: /assets/images/sierpien2019/logo_bialy_tekst.png
 title: sierpień 2019
 permalink: /sierpien2019/
-menus: header
 ---
 
 Zapraszamy na drugie wydanie cyklu otwartych spotkań “Sierpień Open Source” w czasie których wszyscy zainteresowani będą mogli się zapoznać z narzędziami, kulturą, a szczególnie ze społecznością Open Source.

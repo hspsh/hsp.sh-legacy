@@ -32,6 +32,8 @@ footer {
         background-color: $coolest-grey;
         p {
             display: inline-block;
+            padding-right: 15px;
+            padding-left: 15px;
             &:after {
                 content: "";
                 position: absolute;
@@ -42,7 +44,6 @@ footer {
             }
 
             &:last-of-type {
-                margin-left: 40px;
                 &:after {
                     content: none;
                 }
