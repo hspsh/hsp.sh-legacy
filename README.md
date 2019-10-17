@@ -3,28 +3,31 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d61529cf-7e8a-4de7-927c-5358cf4d7fa5/deploy-status)](https://app.netlify.com/sites/naughty-volhard-02c8b8/deploys)
 
+## Prerequisites
+- [nix](https://nixos.org/nix/manual/#chap-installation)
+- direnv (`nix-env -i direnv`)
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
-albo
+### Non-nix
+If you dislike Nix for whatever reason
 
-```bash
-make
-make serve
-```
-
-## Ubuntu
-
+#### Ubuntu 
 ```
 apt install ruby-dev libffi-dev
 ```
 
-## Fedora
-
+#### Fedora
 ```
 dnf install redhat-rpm-config ruby-devel rubygem-bundler
+```
+
+## Setup
+```
+direnv allow .
+```
+
+## Development
+```
+make help
 ```
 
 ## Structure
