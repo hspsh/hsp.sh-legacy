@@ -21,11 +21,17 @@ Poza nauką, stawiamy również na praktykę. Dlatego budujemy wspólny warsztat
 Dążymy do stworzenia społeczności, będącej lokalną, oddolną inicjatywą technologiczną, dającej swoim członkom możliwość korzystania z profesjonalnego warsztatu. Prelekcje i wykłady mają charakter otwarty, a ich liczni uczestnicy po zapoznaniu się z naszą misją i miejscem mają okazję do nas dołączyć. Utrzymanie zapewniamy sobie ze składek członkowskich, które pożytkujemy na opłacenie lokalu i rozwój HSu.
 
 #### Patroni
-Większość naszego budżetu pochodzi ze [składek członkowskich](/membership), ale mamy też patronów, którzy wspierają Hacker:Space.
+Większość naszego budżetu pochodzi ze [składek członkowskich](/membership), ale mamy też patronów, którzy wspierają Hackerspace.
 
 ##### Hackerspace to projekt fundacji CODE:ME
 
 [<img src="/assets/images/partners/w-codeme.png" width="200px" height="auto" />](https://codeme.pl/)
+
+##### Wspierają nas
+
+![Patron: Kainos](/assets/images/sponsor_kainos.png)
+![Patron: Nordea](/assets/images/sponsor_nordea.png)
+
 
 ----
 
