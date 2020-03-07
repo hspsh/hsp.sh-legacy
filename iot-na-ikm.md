@@ -19,8 +19,6 @@ Strona z zapisami zostanie uruchomiona 15 marca. Link do tej strony pojawi się 
 4. Liczba miejsc: 16
 5. wydarzenie realizowane i dofinansowane w ramach programu Otwarty IKM
 
-![Grupa IoT na Hackerspace Trójmiasto](/assets/images/iot-na-ikm/warsztaty-iot.jpg)
-
 ### Internetowy wichajster
 
 Ze względu na brak polskiego określenia na urządzenia typu IoT, w dalszej części
