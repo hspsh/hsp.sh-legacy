@@ -5,17 +5,21 @@ permalink: /iot-na-ikm/
 menus: header
 ---
 
+![Logo otwarty IKM](/assets/images/iot-na-ikm/ikm-otwarty.png)
+
 ### Zapisy
 
 Strona z zapisami zostanie uruchomiona 15 marca. Link do tej strony pojawi się w tym miejscu.
 
 ### Podstawowe informacje
 
-1. Termin: 30 marca
+1. Termin: 30 marca, 17.30
 2. Miejsce: [Instytut Kultury Miejskiej, ul. Długi Targ 39/40, 80-830 Gdańsk](https://www.openstreetmap.org/node/6739857257)
 3. Typ wydarzenia: warsztaty
 4. Liczba miejsc: 16
 5. wydarzenie realizowane i dofinansowane w ramach programu Otwarty IKM
+
+![Grupa IoT na Hackerspace Trójmiasto](/assets/images/iot-na-ikm/warsztaty-iot.jpg)
 
 ### Internetowy wichajster
 
