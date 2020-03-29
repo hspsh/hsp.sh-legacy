@@ -5,6 +5,8 @@ permalink: /about/
 menus: header
 ---
 
+![półeczka](/assets/shelf.png)
+
 #### JESTEŚMY HUBEM TECHNOLOGICZNYM
 Hackerspace to przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, dla których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
 
