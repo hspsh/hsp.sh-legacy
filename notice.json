@@ -1,7 +1,21 @@
+---
+  # hacky json
+  # i love web 2.0
+---  
+[
+{% for post in site.posts %} 
+{% if post.categories contains "notice" %} 
+{% if post.pinned == true %}
+{% unless page.url == post.url %}
 {
-  "title": "COVID-19",
-  "message": "Spejs zamknięty dla gości, wydarzenia tylko online, członkowie walczą z zarazą",
-  "active": true,
-  "alert": "danger",
-  "datetime": "2020-04-27T15:26+02:00"
-}
+  "alert": {{ post.alert | jsonify }},
+  "title": {{ post.title | jsonify }},
+  "message": {{ post.excerpt | remove: '<p>' | remove: '</p>' | jsonify}},
+  "url": {{ post.url | jsonify }},
+  "pinned": {{ post.pinned | jsonify }}
+}{% if forloop.last == false %},{% endif %}
+{% endunless %}
+{% endif %} 
+{% endif %} 
+{% endfor %}
+]
