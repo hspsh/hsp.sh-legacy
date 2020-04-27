@@ -2,10 +2,12 @@
     {% for post in site.posts %} 
     {% if post.categories contains "notice" %} 
     {% if post.pinned == true %}
+    {% unless page.url == post.url %}
     <div class="alert alert-{{ post.alert }}" role="alert">
         <p><b>{{ post.title }}</b> {{ post.excerpt }}</p>
         <p>->&nbsp;<a href="{{ post.url }}">więcej</a></p>
     </div>
+    {% endunless %}
     {% endif %} 
     {% endif %} 
     {% endfor %}
