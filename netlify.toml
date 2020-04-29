@@ -29,3 +29,7 @@
 [[redirects]]   
   from = "/patronite"
   to = "https://patronite.pl/hs3"
+
+[[redirects]]
+  from = "/notice/2020/04/27/covid-19.html"
+  to = "notice/2020/covid-19"
