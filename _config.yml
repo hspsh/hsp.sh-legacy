@@ -25,10 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 wikiurl: "https://wiki.hs3.pl/"
 github_username:  hs3city
 
-collections:
-  events:
-    output: true
-    permalink: /:collection/:year/:slug
+permalink: /:categories/:year/:slug
 
 # Build settings
 markdown: kramdown
