@@ -1,7 +1,8 @@
 ---
-layout: event
+layout: post
 title: Hackathon Świąteczny
 date: 2017-12-15
+categories: [event]
 ---
 
 Zapisy: [<a href="https://hackathonswiateczny.evenea.pl" target="_blank">hackathonswiateczny.evenea.pl</a>]

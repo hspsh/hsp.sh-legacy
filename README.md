@@ -20,6 +20,13 @@ apt install ruby-dev libffi-dev
 dnf install redhat-rpm-config ruby-devel rubygem-bundler
 ```
 
+#### Arch
+```
+pacman -S ruby rubygems
+gem install bundler
+bundle install
+```
+
 ## Setup
 ```
 direnv allow .
