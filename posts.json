@@ -4,7 +4,6 @@
 ---  
 [
 {% for post in site.posts %} 
-{% if post.categories contains "notice" %} 
 {% if post.pinned == true %}
 {% unless page.url == post.url %}
 {
@@ -15,7 +14,6 @@
   "pinned": {{ post.pinned | jsonify }}
 }{% if forloop.last == false %},{% endif %}
 {% endunless %}
-{% endif %} 
 {% endif %} 
 {% endfor %}
 ]
