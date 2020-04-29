@@ -26,9 +26,9 @@ wikiurl: "https://wiki.hs3.pl/"
 github_username:  hs3city
 
 collections:
-  events:
+  posts:
     output: true
-    permalink: /:collection/:year/:slug
+    permalink: /:year/:slug
 
 # Build settings
 markdown: kramdown
