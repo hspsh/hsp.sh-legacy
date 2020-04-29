@@ -8,6 +8,7 @@
 {% unless page.url == post.url %}
 {
   "alert": {{ post.alert | jsonify }},
+  "categories": {{ post.categories | jsonify }},
   "title": {{ post.title | jsonify }},
   "message": {{ post.excerpt | remove: '<p>' | remove: '</p>' | jsonify}},
   "url": {{ post.url | jsonify }},
