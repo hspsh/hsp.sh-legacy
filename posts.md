@@ -1,14 +1,13 @@
 ---
-title: Wydarzenia i Posty
+title: komunikaty
 layout: page
+menus: header
 ---
-
-<h2>Archiwum</h2>
 
 {% for event in site.posts %}
   <li>
     <a href="{{ event.url }}">
-      {{ event.title }} {{ event.date | date: "%Y" }}
+      {{ event.title }} [{{ event.date | date: "%Y" }}]
     </a>
   </li>
 {% endfor %}
