@@ -3,7 +3,7 @@ layout: post
 banner: /assets/images/sierpien2019/logo_bialy_tekst.png
 title: sierpień 2019
 date: 2019-08-01
-permalink: /sierpien2019/
+redirect_from: /sierpien2019
 categories: [event]
 ---
 
