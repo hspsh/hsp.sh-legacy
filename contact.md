@@ -6,6 +6,12 @@ menus: header
 ---
 
 
+
+Żeby dołączyć do naszej społeczności na Slacku wejdź na [at.hs3.pl/slack](https://at.hs3.pl/slack) łącząc się z naszej sieci.  
+
+Jest też kanał IRC na którym ktoś czasem odpowiada. Połącz się z #hs3 na [freenode.net](https://freenode.net).  
+Jeśli nie dość Ci alternatywnych sposobów komunikacji, to jest jeszcze kanał matrix i inne dziwności, ale o tym już na [stronie wiki](https://wiki.hs3.pl/organizacja/komunikator).
+
 Aleja Wojska Polskiego 41, 80-268 Gdańsk, lokal schowany za budynkiem mieszkalnym Wojska Polskiego 39. Drugie szare drzwi.  
 [9HQJ+VM Gdańsk, Polska](https://plus.codes/9F6W9HQJ+VM)
 
