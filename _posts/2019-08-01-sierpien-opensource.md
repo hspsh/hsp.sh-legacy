@@ -27,23 +27,23 @@ Bo możemy.
 ## Agenda
 Kliknij na nazwę dnia, aby przejść do strony wydarzenia na facebook.
 
-* [Dzień frontendu i nie tylko - 10 VIII,  15:00](https://www.facebook.com/events/475307263306166/)
+* [Dzień frontendu i nie tylko - 10 VIII,  15:00](https://www.facebook.com/events/475307263306166/){:target="_blank"}
   * not7cd – kultura hackerska i OS vs FS
   * Iwan – Zrób sobie Endomondo
   * doomhammer – Jak zacząć w Open Source?
   * Michał – JavaScript podstawy
   * whoami – Vue.js wprowadzenie 
-* [Uczenie maszyn i ludzi  – 17 VIII, 15:00](https://www.facebook.com/events/877533529283916/)
+* [Uczenie maszyn i ludzi  – 17 VIII, 15:00](https://www.facebook.com/events/877533529283916/){:target="_blank"}
   * rrr – Wprowadzenie do uczenia maszynowego
   * Amadeusz - Dobrodziejstwo Otwartych Źródeł w krainie Uczenia Głębokiego
   * stmi -Budowanie projektów Javowych z użyciem Apache Maven - wprowadzenie
   * justdzasta - Ucz siebie i innych w duchu open source
-* [Dzień programisty – 24 VIII, 15:00](https://www.facebook.com/events/2387764731499471/)
+* [Dzień programisty – 24 VIII, 15:00](https://www.facebook.com/events/2387764731499471/){:target="_blank"}
   * dreat – Co to jest git i dlaczego jest git
   * Leszek - Od kodu do deploymentu
   * allgreed - Jak testować? - wprowadzenie do walidacji na rapsie
   * patwys - Tworzenie gier w godot engine
-* [Elektronika/IOT – 31 VIII, 11:00](https://www.facebook.com/events/427547037858461/)
+* [Elektronika/IOT – 31 VIII, 11:00](https://www.facebook.com/events/427547037858461/){:target="_blank"}
   * Inżynier Domu – LoRaWAN – TTN i Arduino
   * mroz,Mirek – Warsztaty – przegląd otwartych rozwiązań IOT dla domu
   * CritBit95 - How2elektronika - od pomysłu po własny elektrogadżet
@@ -51,5 +51,5 @@ Kliknij na nazwę dnia, aby przejść do strony wydarzenia na facebook.
 ## Grafiki i propaganda
 Tutaj znajdują się linki do materiałów oraz grafik związanych z wydarzeniem - loga, ulotki itd. .
 
- * [Wszystkie materialy w jednym archiwum - SierpienOpenSource2019.zip](http://54.37.139.87:8080/SierpienOpensource2019/SierpienOpenSource2019.zip)
- * [Strona z materiałam](http://54.37.139.87:8080/SierpienOpensource2019/)
+ * [Wszystkie materialy w jednym archiwum - SierpienOpenSource2019.zip](http://54.37.139.87:8080/SierpienOpensource2019/SierpienOpenSource2019.zip){:target="_blank"}
+ * [Strona z materiałam](http://54.37.139.87:8080/SierpienOpensource2019/){:target="_blank"}
