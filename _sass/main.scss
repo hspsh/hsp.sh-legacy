@@ -4,7 +4,6 @@
 @import "partials/footer";
 @import "views/landing";
 @import "views/contact";
-
 * {
     font-family: $font-family;
 }
@@ -13,7 +12,6 @@ body {
     background-color: $bg-grey;
     color: $white;
     margin: 0;
-
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,23 +20,22 @@ body {
 a {
     color: $white;
     text-decoration: underline;
-
     &:hover {
         color: $hacker-red;
     }
-
     &:active {
         color: #bb0000;
     }
 }
 
 ::selection {
-  background: $hacker-red;
-  color: $white;
+    background: $hacker-red;
+    color: $white;
 }
+
 ::-moz-selection {
-  background: $hacker-red;
-  color: $white;
+    background: $hacker-red;
+    color: $white;
 }
 
 .container {
@@ -52,4 +49,23 @@ a {
 
 main {
     width: 100%;
+}
+
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.alert-danger {
+    // color: #721c24;
+    background-color: #111111;
+    background-image: linear-gradient(135deg, #bb000030 25%, #bb000010 25%, #bb000010 50%, #bb000030 50%, #bb000030 75%, #bb000010 75%, #bb000010 100%);
+    background-size: 56.57px 56.57px;
+    // border-color: #fff;
 }

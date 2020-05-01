@@ -1,0 +1,20 @@
+---
+  # hacky json
+  # i love web 2.0
+---  
+[
+{% for post in site.posts %} 
+{% if post.pinned == true %}
+{% unless page.url == post.url %}
+{
+  "alert": {{ post.alert | jsonify }},
+  "categories": {{ post.categories | jsonify }},
+  "title": {{ post.title | jsonify }},
+  "message": {{ post.excerpt | remove: '<p>' | remove: '</p>' | jsonify}},
+  "url": {{ post.url | jsonify }},
+  "pinned": {{ post.pinned | jsonify }}
+}{% if forloop.last == false %},{% endif %}
+{% endunless %}
+{% endif %} 
+{% endfor %}
+]

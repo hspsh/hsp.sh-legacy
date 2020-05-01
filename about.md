@@ -5,6 +5,8 @@ permalink: /about/
 menus: header
 ---
 
+![półeczka](/assets/shelf.png)
+
 #### JESTEŚMY HUBEM TECHNOLOGICZNYM
 Hackerspace to przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, dla których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
 
@@ -25,12 +27,12 @@ Większość naszego budżetu pochodzi ze [składek członkowskich](/membership)
 
 ##### Hackerspace to projekt fundacji CODE:ME
 
-[<img src="/assets/images/partners/w-codeme.png" width="200px" height="auto" />](https://codeme.pl/)
+[<img src="/assets/images/patrons/codeme.png" width="200px" height="auto" />](https://codeme.pl/)
 
 ##### Wspierają nas
 
-![Patron: Kainos](/assets/images/sponsor_kainos.png)
-![Patron: Nordea](/assets/images/sponsor_nordea.png)
+![Patron: Kainos](/assets/images/patrons/kainos.png)
+![Patron: Nordea](/assets/images/patrons/nordea.png)
 
 
 ----

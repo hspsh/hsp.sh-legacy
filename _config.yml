@@ -13,22 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Hackerspace Trójmiasto
 email: kontakt@hs3.pl
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Oficjalna strona internetowa społeczności Hackerspace Trójmiasto. 
+  Hackerspace to przestrzeń łącząca pasjonatów technologii, hakerów oraz specjalistów wielu nauk technicznych, z różnych piwnic i na różnym etapie rozwoju zawodowego.
+  Nasze szeregi zasilają zarówno ludzie z branży IT jak i młodzi entuzjaści, inżynierowie, biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
+baseurl: ""
+url: "https://hs3.pl/"
 
-wikiurl: "https://wiki.hs3.pl/"
-github_username:  hs3city
-
-collections:
-  events:
-    output: true
-    permalink: /:collection/:year/:slug
+permalink: /:collection/:year/:slug
 
 # Build settings
 markdown: kramdown
@@ -36,6 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-menus
   - jekyll-tidy
+  - jekyll-redirect-from
 
 # sass:
 #   sass_dir: _sass
@@ -55,4 +51,4 @@ exclude:
   - .gitignore
 
 
-copyright: by hackspejs
+copyright: hs3.pl
