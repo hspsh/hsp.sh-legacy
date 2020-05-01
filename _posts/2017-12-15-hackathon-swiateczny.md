@@ -5,9 +5,9 @@ date: 2017-12-15
 categories: [event]
 ---
 
-Zapisy: [<a href="https://hackathonswiateczny.evenea.pl" target="_blank">hackathonswiateczny.evenea.pl</a>]
+Zapisy: [[hackathonswiateczny.evenea.pl](https://hackathonswiateczny.evenea.pl){:target="_blank"}] 
 
-Dyskusja, komentarze: [<a href="https://www.facebook.com/events/1170553073074616/" target="_blank">https://www.facebook.com/events/1170553073074616/</a>]
+Dyskusja, komentarze: [[https://www.facebook.com/events/1170553073074616/](https://www.facebook.com/events/1170553073074616/){:target="_blank"}]
 
 W piątek, 15-tego grudnia zapraszamy wszystkich zainteresowanych elektroniką, arduino, diodami led itp. na 24-godzinny mini hackathon świąteczny, który odbędzie się w siedzibie hackerspace trójmiasto pod adresem al. Wojska Polskiego 41.
 
@@ -42,7 +42,7 @@ Zwycięskie projekty w każdej z kategorii zostaną wyłonione przez uczestnikó
 
 ## Zapisy
 
-Osoby zainteresowane proszone są o zpisanie sie na [<a href="https://hackathonswiateczny.evenea.pl">https://hackathonswiateczny.evenea.pl</a>]. Wpisowe 20zł. jest traktowane jako rezerwacja, a cała kwota zostanie przeznaczona na poczęstunek oraz nagrody dla uczestników imprezy.
+Osoby zainteresowane proszone są o zpisanie sie na [[hackathonswiateczny.evenea.pl](https://hackathonswiateczny.evenea.pl){:target="_blank"}]. Wpisowe 20zł. jest traktowane jako rezerwacja, a cała kwota zostanie przeznaczona na poczęstunek oraz nagrody dla uczestników imprezy.
 
 Osoby zainteresowane udziałem, które nie są w stanie zorganizować własnego zespołu, zachęcamy do wrzucenie informacji w komentarzach pod wydarzeniem na stronie meetup.com - być może ktoś się zgłosi ;]
 
