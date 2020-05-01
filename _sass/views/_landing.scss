@@ -8,6 +8,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: justify;
 	flex: 1 1 auto;
 
 	.thing {
@@ -24,10 +25,6 @@
 		    max-width: 500px;
 		    height: 100%;
 		}
-	}
-
-	.content {
-		text-align: justify;
 	}
 
 	.landing__cta {
