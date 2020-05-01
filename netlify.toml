@@ -1,4 +1,16 @@
 [[redirects]]   
+  from = "/events/*"
+  to = "/posts"
+
+[[redirects]]   
+  from = "/partners"
+  to = "/membership"
+
+[[redirects]]   
+  from = "/join"
+  to = "/contact"
+
+[[redirects]]   
   from = "/donate"
   to = "https://patronite.pl/hs3"
   

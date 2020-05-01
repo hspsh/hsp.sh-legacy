@@ -2,9 +2,6 @@
 title: komunikaty
 layout: page
 menus: header
-redirect_from:
-  - /gamejam
-  - /hackathon
 ---
 
 {% for event in site.posts %}
