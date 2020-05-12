@@ -5,6 +5,11 @@ quick:
   - url: https://fb.me/hackerspacetrojmiasto
     title: fb
   - url: https://github.com/hs3city
+    title: gh
+social:
+  - url: https://fb.me/hackerspacetrojmiasto
+    title: facebook
+  - url: https://github.com/hs3city
     title: github
   - url: https://www.youtube.com/channel/UC0S_3TaYsMyRg3LWHH4Soig
     title: youtube
@@ -12,4 +17,6 @@ quick:
     title: twitter
   - url: https://www.linkedin.com/company/hs3city/about/
     title: linkedin
+  - url: https://0x3c.pl/@hs3
+    title: mastodon
 ---
