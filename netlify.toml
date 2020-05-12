@@ -1,11 +1,15 @@
-[[redirects]]
-  from = "/gamejam"
-  to = "/events"
+[[redirects]]   
+  from = "/events/*"
+  to = "/posts"
 
-[[redirects]]
-  from = "/hackathon"
-  to = "/events"
-  
+[[redirects]]   
+  from = "/partners"
+  to = "/membership"
+
+[[redirects]]   
+  from = "/join"
+  to = "/membership"
+
 [[redirects]]   
   from = "/donate"
   to = "https://patronite.pl/hs3"

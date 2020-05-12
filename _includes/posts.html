@@ -1,0 +1,11 @@
+<div id="posts">
+	{% for post in site.posts %} 
+	{% unless post.categories contains "notice" %} 
+	{% if post.pinned == true %}
+	{% unless page.url == post.url %}
+		<p><b>{{ post.title }}</b> – {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }} ->&nbsp;<a href="{{ post.url }}">więcej();</a></p>
+	{% endunless %}
+	{% endif %} 
+	{% endunless %} 
+	{% endfor %}
+</div>
