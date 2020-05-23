@@ -1,0 +1,3 @@
+[submodule "fow"]
+	path = fow
+	url = https://github.com/uwaga-kodowanko/fow-4.git
