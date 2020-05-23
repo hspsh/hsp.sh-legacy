@@ -51,6 +51,12 @@ Tutaj szybki pogląd na to jak wygląda sytuacja:
 * _config.yml - globalne zmienne i konfiguracja budowania/
 * pliki .md - treści stron!
 
+### Stitching websites together for events and etc.
+
+Use `git submodule add $repo-url directory`. Look in fow folder history for a live example.
+
+Anytime you want to create extravagant non-conforming website that you wish to reside on hs3.pl/whatever, create new repo.
+Lessons learned.
 
 ### Layout
 Draft located at `design`.
