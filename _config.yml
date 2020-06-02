@@ -50,5 +50,7 @@ exclude:
   - README.md
   - .gitignore
 
+include:
+  - _redirects
 
 copyright: hs3.pl

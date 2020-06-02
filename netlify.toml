@@ -34,8 +34,3 @@
   from = "/patronite"
   to = "https://patronite.pl/hs3"
 
-[[redirects]]
-  from = "/fow/"
-  to = "/2020/fow-5/"
-  status = 302
-
