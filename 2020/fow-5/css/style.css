@@ -579,7 +579,7 @@ html, body {
 
 .section__paragraph--term {
     color: #96d86c;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 2;
 }
@@ -958,6 +958,11 @@ html, body {
     .testimonial {
         width: 40%;
         margin: 1rem 0.5rem;
+    }
+
+    /* term */
+    .section__paragraph--term {
+        font-size: 1.5rem;
     }
 
     /* event */
