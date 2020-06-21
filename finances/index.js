@@ -107,6 +107,6 @@ data = async function() {
 
 edgeColor = "none";
 width = 800;
-height = 500;
+height = 400;
 
 chart();
