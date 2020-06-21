@@ -88,7 +88,7 @@ sankey = function() {
 }
 
 format = function() {
-    const format = d3.format(",.0f");
+    const format = d3.format(".0f");
     return data.units ? d => `${format(d)} ${data.units}` : format;
 }
 
