@@ -25,7 +25,7 @@ chart = async function() {
         .selectAll("g")
         .data(links)
         .join("g")
-        .style("mix-blend-mode", "multiply");
+        .style("mix-blend-mode", "normal");
 
     if (edgeColor === "path") {
         const gradient = link.append("linearGradient")
