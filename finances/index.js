@@ -133,7 +133,7 @@ monthlyData = Object.assign(
 2020-03,3328.21,5558.07
 2020-04,4497.86,6183.44
 2020-05,2958.17,5177.32`,
-        ({ date, income }) => ({ date: date, value: +income })
+        ({ date, income, expenses }) => ({ date: date, value: +income, expenses: +expenses })
     ), { format: "PLN", y: "kwota" }
 )
 
@@ -144,7 +144,8 @@ barChart = function() {
         .attr("viewBox", [0, 0, width, height]);
 
     svg.append("g")
-        .attr("fill", "white")
+        .attr("stroke", "white")
+        .attr("fill", "transparent")
         .selectAll("rect")
         .data(monthlyData)
         .join("rect")
@@ -152,6 +153,37 @@ barChart = function() {
         .attr("y", d => y(d.value))
         .attr("height", d => y(0) - y(d.value))
         .attr("width", x.bandwidth());
+
+    svg.append("g")
+        .attr("stroke", "red")
+        .attr("fill", "red")
+        .selectAll("rect")
+        .data(monthlyData)
+        .join("rect")
+        .attr("x", (d, i) => x(i))
+        .attr("y", d => y(d.expenses))
+        .attr("height", d => y(d.expenses - 2) - y(d.expenses))
+        .attr("width", x.bandwidth());
+
+    // svg.append("g")
+    //     .attr("fill", "none")
+    //     .attr("stroke", "#000")
+    //     .selectAll("path")
+    //     .data(d3.groups(monthlyData, d => d.value))
+    //     .join("path")
+    //     .attr("d", ([, group]) => line(group))
+    //     .call(path => path.clone(true))
+    //     .attr("stroke", "#fff")
+    //     .attr("stroke-width", 5);
+
+    // svg.append("g")
+    //     .attr("fill", "#fff")
+    //     .selectAll("circle")
+    //     .data(monthlyData)
+    //     .join("circle")
+    //     .attr("cx", d => x(d.date))
+    //     .attr("cy", d => y(d.value))
+    //     .attr("r", 10);
 
     svg.append("g")
         .call(xAxis);
@@ -171,6 +203,10 @@ x = d3.scaleBand()
 
 y = d3.scaleLinear()
     .domain([0, d3.max(monthlyData, d => d.value)]).nice(6)
+    .range([height - margin.bottom, margin.top])
+
+yExpenses = d3.scaleLinear()
+    .domain([0, d3.max(monthlyData, d => d.expenses)]).nice(6)
     .range([height - margin.bottom, margin.top])
 
 xAxis = g => g
