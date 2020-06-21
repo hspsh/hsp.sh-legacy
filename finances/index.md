@@ -6,7 +6,7 @@ menus: header
 # na bazie https://observablehq.com/@d3/sankey-diagram
 ---
 
-przepływ pieniężny, stan na 2020-06
+przepływ pieniężny, stan na 2020-05
 
 najedź na węzeł żeby wyświetlić wartość
 
