@@ -1,7 +1,7 @@
 const strokeColor = "#fff";
 
 chart = async function() {
-    const svg = d3.select("#chart").append("svg")
+    const svg = d3.select("#chart-cash-flow").append("svg")
         .attr("viewBox", [0, 0, width, height]);
 
     const { nodes, links } = sankey()(await data());
@@ -93,7 +93,7 @@ format = function() {
 }
 
 color = function() {
-    const color = d3.scaleOrdinal(d3.schemeCategory10);
+    const color = d3.scaleOrdinal(d3.schemeSet3);
     return d => color(d.category === undefined ? d.name : d.category);
 }
 
