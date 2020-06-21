@@ -111,29 +111,29 @@ height = 400;
 
 chart();
 
-const margin = ({ top: 30, right: 0, bottom: 30, left: 40 })
+const margin = ({ top: 30, right: 0, bottom: 100, left: 40 })
 
 monthlyData = Object.assign(
     d3.csvParse( // i fucking cant into fetch
-        `date,income,expenses
-2019-01,2989.9,5716.66
-2019-02,3028.61,5795.95
-2019-03,3086.99,5655.74
-2019-04,2916.71,5604.20
-2019-05,3442.61,5533.14
-2019-06,4087.34,5812.10
-2019-07,3776.73,5812.10
-2019-08,6498.1,5812.10
-2019-09,3724.91,5812.10
-2019-10,11671.72,5812.10
-2019-11,3504.91,5812.10
-2019-12,5803.82,5812.10
-2020-01,6156.73,6236.51
-2020-02,14813.06,6299.93
-2020-03,3328.21,5558.07
-2020-04,4497.86,6183.44
-2020-05,2958.17,5177.32`,
-        ({ date, income, expenses }) => ({ date: date, value: +income, expenses: +expenses })
+        `date,income,expenses,balance
+2019-01,2989.9,5716.66,
+2019-02,3028.61,5795.95,
+2019-03,3086.99,5655.74,
+2019-04,2916.71,5604.20,
+2019-05,3442.61,5533.14,
+2019-06,4087.34,5812.10,
+2019-07,3776.73,5812.10,
+2019-08,6498.1,5812.10,
+2019-09,3724.91,5812.10,
+2019-10,11671.72,5812.10,
+2019-11,3504.91,5812.10,
+2019-12,5803.82,5812.10,
+2020-01,6156.73,6236.51,-12222.36
+2020-02,14813.06,6299.93,8433.35
+2020-03,3328.21,5558.07,6203.49
+2020-04,4497.86,6183.44,4517.91
+2020-05,2958.17,5177.32,2298.75`,
+        ({ date, income, expenses, balance }) => ({ date: date, value: +income, expenses: +expenses, balance: balance })
     ), { format: "PLN", y: "kwota" }
 )
 
@@ -165,25 +165,22 @@ barChart = function() {
         .attr("height", d => y(d.expenses - 2) - y(d.expenses))
         .attr("width", x.bandwidth());
 
-    // svg.append("g")
-    //     .attr("fill", "none")
-    //     .attr("stroke", "#000")
-    //     .selectAll("path")
-    //     .data(d3.groups(monthlyData, d => d.value))
-    //     .join("path")
-    //     .attr("d", ([, group]) => line(group))
-    //     .call(path => path.clone(true))
-    //     .attr("stroke", "#fff")
-    //     .attr("stroke-width", 5);
+    svg.append("path")
+        .datum(monthlyData.slice(-5))
+        .attr("fill", "none")
+        .attr("stroke", "#ff0")
+        .attr("stroke-width", 1)
+        .attr("d", balanceLine);
+    // .call(path => path.clone(true))
 
-    // svg.append("g")
-    //     .attr("fill", "#fff")
-    //     .selectAll("circle")
-    //     .data(monthlyData)
-    //     .join("circle")
-    //     .attr("cx", d => x(d.date))
-    //     .attr("cy", d => y(d.value))
-    //     .attr("r", 10);
+    svg.append("g")
+        .attr("fill", "#ff0")
+        .selectAll("circle")
+        .data(monthlyData.slice(-5))
+        .join("circle")
+        .attr("cx", (d, i) => xBalance(d.date))
+        .attr("cy", d => yBalance(d.balance))
+        .attr("r", 3);
 
     svg.append("g")
         .call(xAxis);
@@ -201,6 +198,7 @@ x = d3.scaleBand()
     .range([margin.left, width - margin.right])
     .padding(0.1)
 
+
 y = d3.scaleLinear()
     .domain([0, d3.max(monthlyData, d => d.value)]).nice(6)
     .range([height - margin.bottom, margin.top])
@@ -208,6 +206,20 @@ y = d3.scaleLinear()
 yExpenses = d3.scaleLinear()
     .domain([0, d3.max(monthlyData, d => d.expenses)]).nice(6)
     .range([height - margin.bottom, margin.top])
+
+xBalance = d3.scalePoint()
+    .domain(monthlyData.map(d => d.date))
+    .range([margin.left + x.bandwidth() / 2, width - margin.right - x.bandwidth() / 2])
+    .padding(0.1)
+
+yBalance = d3.scaleLinear()
+    .domain([0, d3.max(monthlyData, d => d.balance)]).nice(6)
+    .range([height - margin.bottom, margin.top])
+
+balanceLine = d3.line()
+    .defined(d => !isNaN(d.balance))
+    .x(d => xBalance(d.date))
+    .y(d => yBalance(d.balance));
 
 xAxis = g => g
     .attr("transform", `translate(0,${height - margin.bottom})`)

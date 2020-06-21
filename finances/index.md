@@ -8,7 +8,7 @@ menus: header
 
 ## bilans miesięczny
 
-miesięczny przychód, TODO wydatki i oszczędności
+miesięczny przychód, wydatki i bilans oszczędności
 
 <div id="chart-monthly"></div>
 
@@ -21,7 +21,7 @@ najedź na węzeł żeby wyświetlić wartość
 
 
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="https://unpkg.com/d3-array@1"></script>
+<script src="https://unpkg.com/d3-array@2"></script>
 <script src="https://unpkg.com/d3-collection@1"></script>
 <script src="https://unpkg.com/d3-path@1"></script>
 <script src="https://unpkg.com/d3-shape@1"></script>
