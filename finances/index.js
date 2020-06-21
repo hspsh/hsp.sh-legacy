@@ -66,7 +66,8 @@ chart = async function() {
         .attr("y", d => (d.y1 + d.y0) / 2)
         .attr("dy", "0.35em")
         .attr("text-anchor", d => d.x0 < width / 2 ? "start" : "end")
-        .text(d => d.name);
+        .text(d => `${d.name}\n${format()(d.value)} PLN`);
+    // .text(d => d.name);
 
     return svg.node();
 }
