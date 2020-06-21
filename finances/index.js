@@ -223,7 +223,7 @@ balanceLine = d3.line()
 
 xAxis = g => g
     .attr("transform", `translate(0,${height - margin.bottom})`)
-    .call(d3.axisBottom(x).ticks(d3.utcMonth.every(1200 / width)).tickSizeOuter(0))
+    .call(d3.axisBottom(xBalance).ticks(d3.utcMonth.every(1200 / width)).tickSizeOuter(0))
 
 yAxis = g => g
     .attr("transform", `translate(${margin.left},0)`)

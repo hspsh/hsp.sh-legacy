@@ -8,7 +8,7 @@ menus: header
 
 ## bilans miesięczny
 
-miesięczny przychód, wydatki i bilans oszczędności
+miesięczny przychód, <span style="color:#f00">wydatki</span> i <span style="color:#ff0">bilans oszczędności</span>
 
 <div id="chart-monthly"></div>
 
