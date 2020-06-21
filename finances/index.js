@@ -98,7 +98,7 @@ color = function() {
 }
 
 data = async function() {
-    const csv = await (await fetch("2020-06.csv")).text();
+    const csv = await (await fetch("2020-05.csv")).text();
     console.log(csv);
     const links = d3.csvParse(csv, d3.autoType);
     const nodes = Array.from(new Set(links.flatMap(l => [l.source, l.target])), name => ({ name, category: name.replace(/ .*/, "") }));
