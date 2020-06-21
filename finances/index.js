@@ -1,11 +1,13 @@
-chart = function() {
+const strokeColor = "#fff";
+
+chart = async function() {
     const svg = d3.select("#chart").append("svg")
         .attr("viewBox", [0, 0, width, height]);
 
-    const { nodes, links } = sankey(data);
+    const { nodes, links } = sankey()(await data());
 
     svg.append("g")
-        .attr("stroke", "#000")
+        .attr("stroke", strokeColor)
         .selectAll("rect")
         .data(nodes)
         .join("rect")
@@ -13,9 +15,9 @@ chart = function() {
         .attr("y", d => d.y0)
         .attr("height", d => d.y1 - d.y0)
         .attr("width", d => d.x1 - d.x0)
-        .attr("fill", color)
+        .attr("fill", color())
         .append("title")
-        .text(d => `${d.name}\n${format(d.value)}`);
+        .text(d => `${d.name}\n${format()(d.value)}`);
 
     const link = svg.append("g")
         .attr("fill", "none")
@@ -41,6 +43,7 @@ chart = function() {
             .attr("stop-color", d => color(d.target));
     }
 
+    // links between nodes
     link.append("path")
         .attr("d", d3.sankeyLinkHorizontal())
         .attr("stroke", d => edgeColor === "none" ? "#aaa" :
@@ -50,11 +53,12 @@ chart = function() {
         .attr("stroke-width", d => Math.max(1, d.width));
 
     link.append("title")
-        .text(d => `${d.source.name} → ${d.target.name}\n${format(d.value)}`);
+        .text(d => `${d.source.name} → ${d.target.name}\n${format()(d.value)}`);
 
     svg.append("g")
-        .attr("font-family", "sans-serif")
-        .attr("font-size", 10)
+        .attr("font-family", "monospace")
+        .attr("fill", strokeColor)
+        // .attr("font-size", 10)
         .selectAll("text")
         .data(nodes)
         .join("text")
@@ -93,15 +97,16 @@ color = function() {
     return d => color(d.category === undefined ? d.name : d.category);
 }
 
-data = function() {
-    const csv = fetch("2020-06.csv");
+data = async function() {
+    const csv = await (await fetch("2020-06.csv")).text();
+    console.log(csv);
     const links = d3.csvParse(csv, d3.autoType);
     const nodes = Array.from(new Set(links.flatMap(l => [l.source, l.target])), name => ({ name, category: name.replace(/ .*/, "") }));
-    return { nodes, links, units: "TWh" };
+    return { nodes, links, units: "PLN" };
 }
 
-edgeColor = "path";
-width = 954;
-height = 600;
+edgeColor = "none";
+width = 800;
+height = 300;
 
 chart();

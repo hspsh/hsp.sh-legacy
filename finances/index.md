@@ -6,7 +6,9 @@ menus: header
 # na bazie https://observablehq.com/@d3/sankey-diagram
 ---
 
-Tutaj znajdują się finanse HSu
+Finanse, stan na 2020-06
+
+najedź na węzeł żeby wyświetlić wartość
 
 <div id="chart"></div>
 <script src="https://d3js.org/d3.v5.min.js"></script>

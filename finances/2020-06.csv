@@ -1,4 +1,7 @@
-składki,przychody,1200
-sponsorzy,przychody,400
-przychody,czynsz,2000
-przychody,internet,30
+source,target,category,value
+składki,przychody,credit,1200
+sponsorzy,przychody,credit,400
+przychody,wydatki,debit,1600
+code:me,wydatki,debit,430
+wydatki,czynsz,debit,2000
+wydatki,internet,debit,30
