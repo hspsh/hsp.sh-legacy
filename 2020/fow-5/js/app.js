@@ -104,11 +104,49 @@ function checkMedia() {
     });
 };
 
+function changeVideo() {
+    let currentVideoId = 0;
+    
+    const videos = [
+        {
+            title: "Rick Astley - Never Gonna Give You Up",
+            src: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+        },
+        {
+            title: "MYSZOJELEŃ",
+            src: "https://www.youtube.com/embed/92p6kervcak"
+        },
+    ];
+
+    const updateVideoSrc = () => {
+        document.getElementById("video-iframe").src = videos[currentVideoId].src;
+        document.getElementById("video-title").innerText = videos[currentVideoId].title;
+    }
+    const prevVideo = () => {
+        currentVideoId--;
+        if (currentVideoId < 0){
+            currentVideoId = videos.length - 1;
+        }
+        updateVideoSrc();
+    }
+    const nextVideo = () => {
+        currentVideoId = (++currentVideoId % videos.length);
+        
+        updateVideoSrc();
+    }
+
+    document.getElementById("video-arrow-prev").addEventListener("click", prevVideo);
+    document.getElementById("video-arrow-next").addEventListener("click", nextVideo);
+    
+    updateVideoSrc();
+}
+
 const init = function() {
     changeTitle();
     showHamburgerMenu();
     countingDownDays();
     checkMedia();
+    changeVideo();
 };
 
 document.addEventListener("DOMContentLoaded", init);
