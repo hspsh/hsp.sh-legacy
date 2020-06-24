@@ -599,7 +599,8 @@ html, body {
     order: -1;
 }
 
-.video__embed iframe {
+.video__embed iframe,
+.video__embed img {
     width: 100%;
     max-width: 560px;
 }
@@ -1033,7 +1034,8 @@ html, body {
         order: 0;
     }
     
-    .video__embed iframe {
+    .video__embed iframe,
+    .video__embed img {
         min-width: 560px;
     }
 

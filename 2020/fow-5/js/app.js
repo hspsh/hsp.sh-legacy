@@ -109,18 +109,25 @@ function changeVideo() {
     
     const videos = [
         {
-            title: "Rick Astley - Never Gonna Give You Up",
-            src: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title: "Future of Work : Gdańsk #5",
+            src: "img/video_fow5.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/e4ba6f89-80ec-44fe-a74d-93e474011468"
         },
         {
-            title: "MYSZOJELEŃ",
-            src: "https://www.youtube.com/embed/92p6kervcak"
+            title: "Future of Work : Gdańsk #4",
+            src: "img/video_fow4.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/ec6e0c0e-10e8-4938-97c4-24b07a355750"
         },
     ];
 
     const updateVideoSrc = () => {
-        document.getElementById("video-target").src = videos[currentVideoId].src;
-        document.getElementById("video-title").innerText = videos[currentVideoId].title;
+        const videoMeta = videos[currentVideoId];
+        
+        document.getElementById("vide-target-link").href = videoMeta.url;
+        document.getElementById("video-title").innerText = videoMeta.title;
+        const target = document.getElementById("video-target");
+        target.src = videoMeta.src;
+        target.alt = videoMeta.title;
     }
     const prevVideo = () => {
         currentVideoId--;
