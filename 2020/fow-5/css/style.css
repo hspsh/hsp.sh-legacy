@@ -584,6 +584,35 @@ html, body {
     line-height: 2;
 }
 
+/* video */
+.section__video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__arrow {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 2rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 100%;
+    background-color:#cbecb7;
+    cursor: pointer;
+    transition: background 0.6s;
+    transition-property: background;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.video__arrow:hover {
+    background-color:#96d86c;
+}
+
 /* event */
 .event__wrapper {
     display: -webkit-box;
