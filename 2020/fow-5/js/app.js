@@ -119,7 +119,7 @@ function changeVideo() {
     ];
 
     const updateVideoSrc = () => {
-        document.getElementById("video-iframe").src = videos[currentVideoId].src;
+        document.getElementById("video-target").src = videos[currentVideoId].src;
         document.getElementById("video-title").innerText = videos[currentVideoId].title;
     }
     const prevVideo = () => {
