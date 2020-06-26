@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://hs3.pl/"
 
-permalink: /:collection/:year/:slug
+permalink: /:year/:slug/
 
 # Build settings
 markdown: kramdown
@@ -50,5 +50,7 @@ exclude:
   - README.md
   - .gitignore
 
+include:
+  - _redirects
 
 copyright: hs3.pl
