@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 @import "common/variables";
-@import "partials/header";
-@import "partials/footer";
-@import "views/landing";
-@import "views/contact";
+@import "includes/header";
+@import "includes/footer";
+@import "includes/notice";
+@import "layouts/home";
+@import "layouts/contact";
 * {
     font-family: $font-family;
 }
@@ -21,20 +22,20 @@ a {
     color: $white;
     text-decoration: underline;
     &:hover {
-        color: $hacker-red;
+        color: $hacker-color;
     }
     &:active {
-        color: #bb0000;
+        color: $cracker-color;
     }
 }
 
 ::selection {
-    background: $hacker-red;
+    background: $hacker-color;
     color: $white;
 }
 
 ::-moz-selection {
-    background: $hacker-red;
+    background: $hacker-color;
     color: $white;
 }
 
@@ -49,25 +50,6 @@ a {
 
 main {
     width: 100%;
-}
-
-.alert {
-    position: relative;
-    padding: .75rem 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.alert-danger {
-    // color: #721c24;
-    background-color: #111111;
-    background-image: linear-gradient(135deg, #bb000030 25%, #bb000010 25%, #bb000010 50%, #bb000030 50%, #bb000030 75%, #bb000010 75%, #bb000010 100%);
-    background-size: 56.57px 56.57px;
-    // border-color: #fff;
 }
 
 .center {
