@@ -1,0 +1,18 @@
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.alert-danger {
+    // color: #721c24;
+    background-color: #111111;
+    background-image: linear-gradient(135deg, transparentize($hacker-color, 0.85) 25%, transparentize($hacker-color, 0.95) 25%, transparentize($hacker-color, 0.95) 50%, transparentize($hacker-color, 0.85) 50%, transparentize($hacker-color, 0.85) 75%, transparentize($hacker-color, 0.95) 75%, transparentize($hacker-color, 0.95) 100%);
+    background-size: 56.57px 56.57px;
+    // border-color: #fff;
+}
