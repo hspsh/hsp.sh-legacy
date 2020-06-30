@@ -144,14 +144,14 @@ function changeVideo() {
         target.src = videoMeta.src;
         target.alt = videoMeta.title;
     }
-    const prevVideo = () => {
+    const nextVideo = () => {
         currentVideoId--;
         if (currentVideoId < 0){
             currentVideoId = videos.length - 1;
         }
         updateVideoSrc();
     }
-    const nextVideo = () => {
+    const prevVideo = () => {
         currentVideoId = (++currentVideoId % videos.length);
         
         updateVideoSrc();
