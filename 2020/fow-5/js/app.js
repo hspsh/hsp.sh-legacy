@@ -104,11 +104,71 @@ function checkMedia() {
     });
 };
 
+function changeVideo() {
+    let currentVideoId = 0;
+    
+    const videos = [
+        {
+            title: "Future of Work : Gdańsk #5 (17 VI 2020)",
+            src: "img/video_fow5.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/e4ba6f89-80ec-44fe-a74d-93e474011468"
+        },
+        {
+            title: "Future of Work : Gdańsk #4 (20 V 2020)",
+            src: "img/video_fow4.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/ec6e0c0e-10e8-4938-97c4-24b07a355750"
+        },
+        {
+            title: "Future of Work : Gdańsk #3 (15 IV 2020)",
+            src: "img/video_fow3.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/7e0b9bbb-7b9c-4f26-a75b-fdf61f3d5bc6"
+        },
+        {
+            title: "Future of Work : Gdańsk #2 (25 III 2020)",
+            src: "img/video_fow2.png",
+            url: "https://primetime.bluejeans.com/a2m/events/playback/cc894faa-cf87-4349-aa97-d8cea2387c84"
+        },
+        {
+            title: "Future of Work : Gdańsk #1 (16 II 2020)",
+            src: "img/video_fow1.png",
+            url: "https://www.youtube.com/watch?v=_K5llO7Iiw8"
+        },
+    ];
+
+    const updateVideoSrc = () => {
+        const videoMeta = videos[currentVideoId];
+        
+        document.getElementById("vide-target-link").href = videoMeta.url;
+        document.getElementById("video-title").innerText = videoMeta.title;
+        const target = document.getElementById("video-target");
+        target.src = videoMeta.src;
+        target.alt = videoMeta.title;
+    }
+    const nextVideo = () => {
+        currentVideoId--;
+        if (currentVideoId < 0){
+            currentVideoId = videos.length - 1;
+        }
+        updateVideoSrc();
+    }
+    const prevVideo = () => {
+        currentVideoId = (++currentVideoId % videos.length);
+        
+        updateVideoSrc();
+    }
+
+    document.getElementById("video-arrow-prev").addEventListener("click", prevVideo);
+    document.getElementById("video-arrow-next").addEventListener("click", nextVideo);
+    
+    updateVideoSrc();
+}
+
 const init = function() {
     changeTitle();
     showHamburgerMenu();
     countingDownDays();
     checkMedia();
+    changeVideo();
 };
 
 document.addEventListener("DOMContentLoaded", init);
