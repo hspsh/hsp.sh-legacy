@@ -15,7 +15,7 @@ header nav {
     }
     a::after {
         content: " |";
-        color: red;
+        color: $hacker-color;
     }
     a:first-child::before {
         content: "[ ";
