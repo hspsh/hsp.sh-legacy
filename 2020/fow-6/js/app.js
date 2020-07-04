@@ -40,7 +40,7 @@ function showHamburgerMenu() {
 
 function countingDownDays() {
     const daysCounter = document.querySelector(".days-counter");
-    const countDownDate = new Date("Jun 18, 2020 00:00:00").getTime();
+    const countDownDate = new Date("Jul 16, 2020 00:00:00").getTime();
 
     const setinterval = setInterval(function() {
         const now = new Date().getTime();

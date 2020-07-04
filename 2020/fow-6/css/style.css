@@ -141,10 +141,10 @@ html, body {
 .navigation {
     height: 100%;
     width: 100%;
-    background: #96d86c;
-    background: -o-linear-gradient(top, #96d86c, #FFFFFF);
-    background: -webkit-gradient(linear, left top, left bottom, from(#96d86c), to(#FFFFFF));
-    background: linear-gradient(to bottom, #96d86c, #FFFFFF);
+    background: #f6a7c1;
+    background: -o-linear-gradient(top, #f6a7c1, #FFFFFF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6a7c1), to(#FFFFFF));
+    background: linear-gradient(to bottom, #f6a7c1, #FFFFFF);
     position: fixed;
     top: 0;
     left: 0;
@@ -271,18 +271,18 @@ html, body {
 .decoration {
     min-height: 200px;
     margin-bottom: 2rem;
-    background: #96d86c;
-    background: -o-linear-gradient(top, #96d86c, #FFFFFF);
-    background: -webkit-gradient(linear, left top, left bottom, from(#96d86c), to(#FFFFFF));
-    background: linear-gradient(to bottom, #96d86c, #FFFFFF);
+    background: #f6a7c1;
+    background: -o-linear-gradient(top, #f6a7c1, #FFFFFF);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f6a7c1), to(#FFFFFF));
+    background: linear-gradient(to bottom, #f6a7c1, #FFFFFF);
 }
 
 .decoration2 {
     min-height: 200px;
-    background: #96d86c;
-    background: -o-linear-gradient(bottom, #96d86c, #FFFFFF);
-    background: -webkit-gradient(linear, left bottom, left top, from(#96d86c), to(#FFFFFF));
-    background: linear-gradient(to top, #96d86c, #FFFFFF);
+    background: #f6a7c1;
+    background: -o-linear-gradient(bottom, #f6a7c1, #FFFFFF);
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6a7c1), to(#FFFFFF));
+    background: linear-gradient(to top, #f6a7c1, #FFFFFF);
 }
 
 /* about-us */
@@ -374,7 +374,7 @@ html, body {
 .speaker__photo {
     width: 300px;
     height: 300px;
-    background: #cbecb7;
+    background: #fad4e1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -392,7 +392,7 @@ html, body {
 }
 
 .speaker__photo:hover {
-    background: #96d86c;
+    background: #f6a7c1;
 }
 
 .speaker__img {
@@ -412,7 +412,7 @@ html, body {
 }
 
 .speaker__position {
-    color: #96d86c;
+    color: #f6a7c1;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -492,7 +492,7 @@ html, body {
 .plan__decoration::after {
     content: "";
     width: 90%;
-    border-bottom: 3px dashed #cbecb7;
+    border-bottom: 3px dashed #fad4e1;
     position: absolute;
     bottom: 0;
     left: 5%;
@@ -578,7 +578,7 @@ html, body {
 }
 
 .section__paragraph--term {
-    color: #96d86c;
+    color: #f6a7c1;
     font-size: 1rem;
     font-weight: 700;
     line-height: 2;
@@ -618,7 +618,7 @@ html, body {
 
     text-align: center;
     border-radius: 100%;
-    background-color:#cbecb7;
+    background-color:#fad4e1;
     cursor: pointer;
 
     transition: background 0.6s;
@@ -628,7 +628,7 @@ html, body {
     transition-delay: 0s;
 }
 .video__arrow:hover {
-    background-color:#96d86c;
+    background-color:#f6a7c1;
 }
 
 .arrow__prev {
@@ -669,31 +669,31 @@ html, body {
 }
 
 .event__btn {
-    color: #96d86c;
+    color: #f6a7c1;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
     padding: 1rem 2rem;
-    border: 2px solid #96d86c;
+    border: 2px solid #f6a7c1;
     border-radius: 35px;
-    -webkit-box-shadow: inset 0 0 0 0 #96d86c;
-    box-shadow: inset 0 0 0 0 #96d86c;
+    -webkit-box-shadow: inset 0 0 0 0 #f6a7c1;
+    box-shadow: inset 0 0 0 0 #f6a7c1;
     -webkit-transition: all ease-out 0.6s;
     -o-transition: all ease-out 0.6s;
     transition: all ease-out 0.6s;
 }
 
 .event__btn--left-diagonal:hover {
-    -webkit-box-shadow: inset 400px 50px 0 0 #96d86c;
-    box-shadow: inset 400px 50px 0 0 #96d86c;
+    -webkit-box-shadow: inset 400px 50px 0 0 #f6a7c1;
+    box-shadow: inset 400px 50px 0 0 #f6a7c1;
     color: #fff;
 }
 
 /* gallery */
 .gallery {
     padding: 0.5rem 0;
-    background: #96d86c;
+    background: #f6a7c1;
 }
 
 .gallery__wrapper {
@@ -904,10 +904,10 @@ html, body {
 
 /* footer */
 .footer {
-    background: #96d86c;
-    background: -o-linear-gradient(bottom, #96d86c, #FFFFFF);
-    background: -webkit-gradient(linear, left bottom, left top, from(#96d86c), to(#FFFFFF));
-    background: linear-gradient(to top, #96d86c, #FFFFFF);
+    background: #f6a7c1;
+    background: -o-linear-gradient(bottom, #f6a7c1, #FFFFFF);
+    background: -webkit-gradient(linear, left bottom, left top, from(#f6a7c1), to(#FFFFFF));
+    background: linear-gradient(to top, #f6a7c1, #FFFFFF);
 }
 
 .footer__wrapper {
