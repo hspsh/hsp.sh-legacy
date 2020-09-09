@@ -1,10 +1,9 @@
 ---
 layout: post
-title: COVID-19
-date: 2020-04-27
+title: Hackerspace Pomorze
+date: 2020-09-01
 redirect_from:
-  - /notice/2020/04/27/covid-19.html
-  - /covid19
+  - /hspomorze
 categories: [event]
 
 
