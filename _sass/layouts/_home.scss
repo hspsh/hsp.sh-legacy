@@ -1,36 +1,54 @@
-.landing_svg {
-	background: url(/assets/home-bg.svg) $bg-grey no-repeat center center;
-	background-size: 800px;
-	fill: #212121;
-}
-
-.landing {
+.brand {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: justify;
 	flex: 1 1 auto;
+	flex-wrap: wrap;
 
-	.thing {
-		max-width: 600px;
-		width: 80%;
-		margin: 3em;
+	.slogan {
+		margin: auto;
+		text-align: center;
+		flex-basis: 100%;
 	}
 
 	.logo {
+		$size: 128px;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
+		align-items: center;
+
+		span {
+			flex-basis: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
 		img {
-			width: -webkit-fill-available;
-		    max-width: 500px;
-		    height: 100%;
+			max-width: $size;
+			margin: 0.67em 0 0;
+			border: 5px solid $hacker-color;
+			border-radius: $size;
+			border-width: $size/20;
+		}
+
+		@media screen and (max-width: 600px) {
+			$size: 72px;
+			flex-wrap: nowrap;
+			img {
+				margin: 0 2em;
+				max-width: $size;
+			border-radius: $size;
+			border-width: $size/20;
+			}
 		}
 	}
+}
 
-	.landing__cta {
-		text-align: center;
-		a {
-			color: $hacker-color;
-		}
+.content {
+	a {
+		color: $hacker-color;
 	}
 }

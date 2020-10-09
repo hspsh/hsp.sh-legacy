@@ -2,7 +2,7 @@
 layout: page
 title: finanse
 permalink: /finances/
-menus: header
+#menus: header
 # na bazie https://observablehq.com/@d3/sankey-diagram
 ---
 

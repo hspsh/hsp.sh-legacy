@@ -1,5 +1,5 @@
 ---
-title: komunikaty
+title: Wydarzenia
 layout: page
 menus: header
 ---

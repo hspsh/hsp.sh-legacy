@@ -1,4 +1,4 @@
-fetch('https://whois.at.hs3.pl/api/now')
+fetch('https://whois.at.hsp.sh/api/now')
   .then((response) => {
       if (response.status !== 200) {
         console.log('Whois connection failed. Status Code: ' +
@@ -9,7 +9,7 @@ fetch('https://whois.at.hs3.pl/api/now')
       response.json().then((data) => {
         let message = `<span style="color:red">Zamknięte</span>`
         if(data.headcount > 0) message = `<span style="color:lime">Otwarte</span>`
-        document.querySelector("#whois").innerHTML = `<a href="https://whois.at.hs3.pl">whois:</a> ${message} <span title="${data.users.join(", ")}">[${data.headcount}]</span>`
+        document.querySelector("#whois").innerHTML = `<a href="https://whois.at.hsp.sh">whois:</a> ${message} <span title="${data.users.join(", ")}">[${data.headcount}]</span>`
       });
     }
   )

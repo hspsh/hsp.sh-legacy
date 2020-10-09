@@ -1,19 +1,19 @@
 ---
 layout: meta
 ---
-<body class="landing_svg">
+<body>
     {% include header.html %}
 	{% include notice.html %}
-	<main class="landing">
-	<div class="thing">
+	<main class="container">
+	<div class="brand">		
 		<div class="logo">
-		    <img src="/assets/logo_white_full.png">
+			<img src="/assets/hsp-gray.png">
+			<span><h1>Hackerspace Pomorze</h1></span>
 		</div>
-		<div class="content">
-			{{ content }}
-		</div>
-		<div class="landing__cta" ><a href="/about">czytaj_więcej();</a></div>
-	{% include posts.html %}
+		<p class="slogan">Restartujemy Hackerspace. Nowa nazwa. Nowy adres. Ci sami ludzie.</p>
+	</div>
+	<div class="content">
+		{{ content }}
 	</div>
 	</main>
     {% include footer.html %}
