@@ -8,7 +8,7 @@ Hackerspace to społeczność i miejsce dla ludzi, którym po prostu się chce! 
 ## Gdzie?
 Do Studzienki 28, 80-227
 
-9JC6+FG Gdańsk, Polska  -> [więcej(adres);](/contact)
+9JC6+FG Gdańsk, Polska  -> [więcej(adres);](/contact/#adres-fizyczny)
 {% include location-map.html %}
 
 ## Kontakt
