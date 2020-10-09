@@ -16,6 +16,11 @@
 		width: 80%;
 		margin: 3em;
 	}
+	
+	a {
+		color: $hacker-color;
+		text-decoration: unset;
+	}
 
 	.logo {
 		display: flex;
@@ -25,6 +30,9 @@
 		    max-width: 128px;
 			height: 100%;
 			margin: auto;
+			border: 5px solid $hacker-color;
+			border-radius: 128px;
+			border-width: 5px;
 		}
 	}
 
