@@ -2,36 +2,27 @@
 layout: default
 ---
 <main>
-<div class="container">
-<h1>{{ page.title }}</h1>
-	
-</div>
-<section class="contact__cta">
 	<div class="container">
-		
-	<p>
-		Napisz do nas, ktoś z członków odezwie się do ciebie
-	</p>
-	<form name="contact" method="POST" netlify>
-		<p>
-			<input type="text" name="name" placeholder="email" />
-		</p>
-		<p>
-			<textarea name="message" placeholder="wiadomość"></textarea>
-		</p>
-		<p>
-			<div data-netlify-recaptcha></div>
-			<button type=”submit”>wyślij</button>
-		</p>
-	</form>
-	</div>
-</section>
+		<h1>{{ page.title }}</h1>
 
-<section class="contact__info">
-	<div class="container">
+
+		<section class="contact">
+			<p>
+				Napisz do nas, ktoś z członków odezwie się do ciebie
+			</p>
+			<form name="contact" method="POST" netlify>
+				<p>
+					<input type="text" name="name" placeholder="email" />
+				</p>
+				<p>
+					<textarea name="message" placeholder="wiadomość"></textarea>
+				</p>
+				<p>
+				<div data-netlify-recaptcha></div>
+				<button type=”submit”>wyślij</button>
+				</p>
+			</form>
+		</section>
 		{{ content }}
-
-		{% include location-map.html %}
 	</div>
-</section>
 </main>
