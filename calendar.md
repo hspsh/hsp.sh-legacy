@@ -2,7 +2,7 @@
 layout: page
 title: kalendarz
 permalink: /calendar/
-menus: header
+#menus: header
 ---
 
 Jeżeli chcesz zorganizować jakieś wydarzenie, zapoznaj się z [poradnikiem na wiki](https://wiki.hsp.sh/zrob_se_meetup)
