@@ -13,8 +13,7 @@
 
 	.thing {
 		max-width: 600px;
-		width: 80%;
-		margin: 3em;
+		width: 90%;
 	}
 	
 	a {
@@ -22,17 +21,34 @@
 		text-decoration: unset;
 	}
 
+	#slogan {
+		margin: auto;
+		text-align: center;
+	}
+
 	.logo {
+		$size: 128px;
 		display: flex;
 		justify-content: center;
+		align-items: center;
+
+		@media only screen and (max-width: 400px) {
+			$size: 64px;
+		}
+		
 		img {
 			width: -webkit-fill-available;
-		    max-width: 128px;
+		    max-width: $size;
 			height: 100%;
-			margin: auto;
+			margin: 16px;
 			border: 5px solid $hacker-color;
-			border-radius: 128px;
-			border-width: 5px;
+			border-radius: $size;
+			border-width: $size/20;
+		}
+
+		span {
+			vertical-align:middle;
+			display:inline;
 		}
 	}
 
