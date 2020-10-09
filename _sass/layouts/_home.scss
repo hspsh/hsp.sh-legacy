@@ -29,26 +29,35 @@
 	.logo {
 		$size: 128px;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 
-		@media only screen and (max-width: 400px) {
-			$size: 64px;
+		span {
+			flex-basis: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 		
 		img {
-			width: -webkit-fill-available;
 		    max-width: $size;
 			height: 100%;
-			margin: 16px;
+			margin: 0.67em 0 0;
 			border: 5px solid $hacker-color;
 			border-radius: $size;
 			border-width: $size/20;
 		}
 
-		span {
-			vertical-align:middle;
-			display:inline;
+		@media screen and (max-width: 600px) {
+			$size: 72px;
+			flex-wrap: nowrap;
+			img {
+				margin: 0 2em;
+				max-width: $size;
+			border-radius: $size;
+			border-width: $size/20;
+			}
 		}
 	}
 
