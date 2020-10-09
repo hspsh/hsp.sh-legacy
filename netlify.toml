@@ -12,25 +12,17 @@
 
 [[redirects]]   
   from = "/donate"
-  to = "https://patronite.pl/hs3"
+  to = "/membership"
   
 [[redirects]] 
   from = "/facebook"
-  to = "https://www.facebook.com/hackerspacetrojmiasto"
+  to = "https://www.facebook.com/Hackerspace-Pomorze-103254931521373/"
   
 [[redirects]]   
   from = "/twitter"
-  to = "https://twitter.com/hs3city"
-  
-[[redirects]]   
-  from = "/meetup"
-  to = "https://meetup.com/hs3city"
+  to = "https://twitter.com/hspsh"
   
 [[redirects]]   
   from = "/github"
-  to = "https://github.com/hs3city"
-  
-[[redirects]]   
-  from = "/patronite"
-  to = "https://patronite.pl/hs3"
+  to = "https://github.com/hspsh"
 
