@@ -4,17 +4,14 @@
 	fill: #212121;
 }
 
-.landing {
+
+.brand {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: justify;
 	flex: 1 1 auto;
-
-	.brand {
-		max-width: 600px;
-		width: 90%;
-	}
+	flex-wrap: wrap;
 	
 	a {
 		color: $hacker-color;
@@ -24,6 +21,7 @@
 	.slogan {
 		margin: auto;
 		text-align: center;
+		flex-basis: 100%;
 	}
 
 	.logo {
@@ -41,7 +39,7 @@
 		}
 		
 		img {
-		    max-width: $size;
+			max-width: $size;
 			margin: 0.67em 0 0;
 			border: 5px solid $hacker-color;
 			border-radius: $size;
@@ -59,14 +57,14 @@
 			}
 		}
 	}
+}
 
-	.content {
-		a {
-			color: $hacker-color;
-		}
+.content {
+	a {
+		color: $hacker-color;
+	}
 
-		h2::first-letter {
-			color: $hacker-color;
-		}
+	h2::first-letter {
+		color: $hacker-color;
 	}
 }
