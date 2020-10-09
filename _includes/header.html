@@ -1,16 +1,13 @@
 <header>
     <div class="nav">
+        <nav style="float:left;">
         {% if page.url == "/" %}
-        <nav style="float:left;">
             {% include nav-links.html menu=site.menus.quick %}
-        </nav>
+        
         {% else %}
-        <img src="/assets/hsp-gray.png" alt="home page"/>
-        <nav style="float:left;">
             <a href="{{ site.baseurl }}/">Strona Główna</a>
-        </nav>
         {% endif %}
-
+         </nav>
         <nav style="float:right;">
             {% include nav-links.html menu=site.menus.header %}
         </nav>
