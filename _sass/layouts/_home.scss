@@ -11,7 +11,7 @@
 	text-align: justify;
 	flex: 1 1 auto;
 
-	.thing {
+	.brand {
 		max-width: 600px;
 		width: 90%;
 	}
@@ -21,7 +21,7 @@
 		text-decoration: unset;
 	}
 
-	#slogan {
+	.slogan {
 		margin: auto;
 		text-align: center;
 	}
@@ -61,9 +61,12 @@
 		}
 	}
 
-	.landing__cta {
-		text-align: center;
+	.content {
 		a {
+			color: $hacker-color;
+		}
+
+		h2::first-letter {
 			color: $hacker-color;
 		}
 	}
