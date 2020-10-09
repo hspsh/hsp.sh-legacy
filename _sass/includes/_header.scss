@@ -2,17 +2,18 @@ header {
     padding: 2em 1em;
 }
 
-.header__logo {
-    height: 1.5em;
+.nav img {
+    height: 1em;
+    float: left;
+    display: inline;
 }
-
 
 header nav {
     text-transform: lowercase;
     display: inline
     a {
         color: white;
-        text-decoration: none;
+        text-decoration: none !important;
     }
     a::after {
         content: " |";
