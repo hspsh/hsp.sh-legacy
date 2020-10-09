@@ -12,11 +12,6 @@
 	text-align: justify;
 	flex: 1 1 auto;
 	flex-wrap: wrap;
-	
-	a {
-		color: $hacker-color;
-		text-decoration: unset;
-	}
 
 	.slogan {
 		margin: auto;
@@ -61,10 +56,6 @@
 
 .content {
 	a {
-		color: $hacker-color;
-	}
-
-	h2::first-letter {
 		color: $hacker-color;
 	}
 }
