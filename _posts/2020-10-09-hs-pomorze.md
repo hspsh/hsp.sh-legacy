@@ -1,5 +1,6 @@
 ---
 layout: post
+banner: /assets/images/hspomorze/banner.png
 title: Ważna wiadomość dla społeczności hakerspejsowej!
 date: 2020-10-09
 redirect_from:
