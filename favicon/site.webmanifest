@@ -1,19 +1,19 @@
 {
-    "name": "Hackerspace Pomorze",
-    "short_name": "Hackerspace",
+    "name": "hsp.sh",
+    "short_name": "hsp.sh",
     "icons": [
         {
-            "src": "/favicon/android-chrome-192x192.png",
+            "src": "android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/favicon/android-chrome-384x384.png",
-            "sizes": "384x384",
+            "src": "android-chrome-256x256.png",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ],
-    "theme_color": "#000000",
-    "background_color": "#000000",
+    "theme_color": "#00cc99",
+    "background_color": "#00cc99",
     "display": "standalone"
 }
