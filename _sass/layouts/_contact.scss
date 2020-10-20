@@ -1,5 +1,4 @@
-.contact__cta {
-	background: $cool-grey;
+.contact {
 	p {
 		display: flex;
 		
@@ -10,7 +9,7 @@
 		color: $white;
 		font-family: $font-family;
 		border: 1px solid $white;
-		background-color: transparent;
+		background: $cool-grey;
 		padding: 0.5em;
 		width: auto;
 	}

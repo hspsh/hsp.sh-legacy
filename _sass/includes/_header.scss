@@ -1,17 +1,18 @@
 header {
-    padding: 2em 1em;
+    padding: 1em 1em;
 }
 
-.header__logo {
-        height: 1em;
-    }
+.nav img {
+    height: 1em;
+    float: left;
+}
 
 header nav {
     text-transform: lowercase;
-
+    display: inline
     a {
         color: white;
-        text-decoration: none;
+        text-decoration: none !important;
     }
     a::after {
         content: " |";
@@ -19,10 +20,10 @@ header nav {
     }
     a:first-child::before {
         content: "[ ";
-        color: white;
+        color: $hacker-color;
     }
     a:last-child::after {
         content: " ]";
-        color: white;
+        color: $hacker-color;
     }
 }

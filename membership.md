@@ -15,20 +15,14 @@ Nasz slack używany jest przez członków i sympatyków HSu do tworzenia kanał�
 
 Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nam pomóc, to daj nam znać, jesteśmy otwarci na współpracę.
 
-### Paypal
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="Q8PRNTKS4R432">
-<input type="image" src="https://www.paypalobjects.com/pl_PL/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – Płać wygodnie i bezpiecznie">
-<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
-</form>
-
 ### Dane do przelewu
 
 ```
-Tytuł: Na cele statutowe - HS
-Konto: PL 39 1140 2004 0000 3302 7648 8799
-Kto: Fundacja CODE:ME
-al. Wojska Polskiego 41, 80-268 Gdańsk
+Stowarzyszenie Hackerspace Pomorze
+Stefana Miraua 10/6, 80-318 Gdańsk
+Nr rachunku: 50 1600 1459 1890 5449 3000 0001
+IBAN: PL50 1600 1459 1890 5449 3000 0001
+BIC/SWIFT: PPABPLPK
+Tytułem: Darowizna na cele statutowe
+Tytułem: Składka [Imię] [Nazwisko]
 ```

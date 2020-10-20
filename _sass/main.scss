@@ -16,6 +16,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
+    background: url(/assets/home-bg.svg) $bg-grey no-repeat center center;
+    background-size: 800px;
+    fill: #212121;
 }
 
 a {

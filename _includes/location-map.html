@@ -1,3 +1,36 @@
 <div>
-    <img src="https://wiki.hs3.pl/_media/o_nas/siedziba/mapa_41.png " alt="obrazek mapy">
+    <div id="map"></div>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <style>
+        #map {
+            padding-bottom: 56.25%;
+            width: 100%
+        }
+
+        @media screen and (max-width: 400px) {
+            #map {
+                width: 100%
+            }
+        }
+    </style>
+
+    <script>
+        window.loadMap = () => {
+            let map = L.map('map').setView([54.371, 18.611], 12);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+
+            L.marker([54.371, 18.611]).addTo(map);
+        }
+    </script>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin="" onload="loadMap()"></script>
 </div>
