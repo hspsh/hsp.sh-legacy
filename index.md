@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 ## Co to hackerspace?
-Hackerspace to społeczność i miejsce dla ludzi, którym po prostu się chce! -> [więcej(o_nas);](/about)
+Hackerspace to stowarzyszenie zrzeszające społeczność oraz miejsce dla ludzi, którym po prostu się chce! -> [więcej(o_nas);](/about)
 
 ## Gdzie?
 Do Studzienki 28, 80-227
