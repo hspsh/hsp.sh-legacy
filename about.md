@@ -8,7 +8,7 @@ menus: header
 ![półeczka](/assets/shelf.png)
 
 #### JESTEŚMY HUBEM TECHNOLOGICZNYM
-Hackerspace to przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, dla których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
+Hackerspace to stowarzyszenie oraz przestrzeń łącząca specjalistów wielu nauk technicznych, na różnym etapie rozwoju zawodowego, a także osób, dla których świat technologii jest pasją. Nasze szeregi zasilają akademicy, inżynierowie (zarówno ci z wieloletnim doświadczeniem, jak i ci świeżo po studiach), biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
 
 #### REALIZUJEMY NASZĄ MISJĘ
 Poza swobodną wymianą myśli, stawianiem pytań, szukaniem odpowiedzi i realizacją wspólnych i indywidualnych projektów organizujemy również otwarte spotkania o różnorodnej tematyce. Naszą misją jest zainteresowanie szeroko rozumianą technologią te osoby, które są jej użytkownikami i rozwinięcie pasji u tych, którzy dzielą ją z nami. Wiemy też, że łatwo jest zagubić się w stale rozwijającym się cyfrowym świecie. Dlatego pracujemy u podstaw; po pierwsze uświadamiamy społeczeństwo o pojawiających się, wraz z rozwojem, poważnych zagrożeniach bezpieczeństwa. Po drugie — pomagamy im w poruszaniu się po świecie współczesnych technologii.
