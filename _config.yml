@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hackerspace Trójmiasto
-email: kontakt@hs3.pl
+title: Hackerspace Pomorze
+email: kontakt@pomorze.hackerspace.pl
 description: >- # this means to ignore newlines until "baseurl:"
-  Oficjalna strona internetowa społeczności Hackerspace Trójmiasto. 
+  Oficjalna strona internetowa społeczności Hackerspace Pomorze. 
   Hackerspace to przestrzeń łącząca pasjonatów technologii, hakerów oraz specjalistów wielu nauk technicznych, z różnych piwnic i na różnym etapie rozwoju zawodowego.
   Nasze szeregi zasilają zarówno ludzie z branży IT jak i młodzi entuzjaści, inżynierowie, biolodzy, majsterkowicze, hobbyści, artyści, humaniści i studenci różnych kierunków.
-baseurl: ""
-url: "https://hs3.pl/"
+baseurl: "https://hsp.sh/"
+url: "https://hsp.sh/"
 
 permalink: /:year/:slug/
 
@@ -53,4 +53,4 @@ exclude:
 include:
   - _redirects
 
-copyright: hs3.pl
+copyright: hsp.sh
