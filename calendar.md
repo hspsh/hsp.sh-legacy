@@ -1,6 +1,7 @@
 ---
 layout: page
-title: kalendarz
+title: Kalendarz
+description: Kalendarium wydarzeń.
 permalink: /calendar/
 #menus: header
 ---

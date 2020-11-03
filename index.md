@@ -1,5 +1,6 @@
 ---
 title: Home
+description: Hackerspace to stowarzyszenie zrzeszające społeczność oraz miejsce dla ludzi, którym po prostu się chce!
 layout: home
 ---
 ## Co to hackerspace?

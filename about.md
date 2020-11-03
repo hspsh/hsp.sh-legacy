@@ -1,6 +1,7 @@
 ---
 layout: page
-title: o nas
+title: O nas
+description: Czym jest Hackerspace?
 permalink: /about/
 menus: header
 ---

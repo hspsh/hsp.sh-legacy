@@ -1,5 +1,6 @@
 ---
 title: Wydarzenia
+description: Wydarzenia organizowane przez naszą społeczność.
 layout: page
 menus: header
 ---
