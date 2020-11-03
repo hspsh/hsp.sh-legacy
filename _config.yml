@@ -17,9 +17,9 @@
 title: Hackerspace Pomorze
 email: kontakt@pomorze.hackerspace.pl
 description: >- # this means to ignore newlines until "baseurl:"
-  Oficjalna strona internetowa stowarzyszenia Hackerspace Pomorze. 
   Hackerspace to stowarzyszenie zrzeszające społeczność oraz miejsce dla ludzi, którym po prostu się chce!
-baseurl: "https://hsp.sh"
+banner: https://hsp.sh/assets/images/hspomorze/banner.png
+baseurl: ""
 url: "https://hsp.sh/"
 
 permalink: /:year/:slug/
