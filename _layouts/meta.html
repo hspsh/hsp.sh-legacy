@@ -18,13 +18,13 @@
     <meta name="theme-color" content="#00cc99">
 
     <meta property="og:url" content="https://hsp.sh/">
-    <meta property="og:description" content="{{ page.description | site.description}}">
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
-    <meta property="og:image" content="{{ page.banner | site.banner }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.banner %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}">
     
-    <meta property="twitter:description" content="{{ page.description | site.description}}">
     <meta property="twitter:title" content="{{ page.title }} | {{ site.title }}">
-    <meta property="twitter:image" content="{{ page.banner | site.banner }}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="twitter:image" content="{% if page.banner %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}">
     <meta property="twitter:card" content="summary">
     
     <link rel="preload" as="image" href="/assets/hsp-gray.png">  
