@@ -1,6 +1,7 @@
 ---
 layout: page
-title: o nas
+title: O nas
+description: O Stowarzyszeniu {{ site.title }}
 permalink: /about/
 menus: header
 ---

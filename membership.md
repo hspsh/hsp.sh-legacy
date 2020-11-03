@@ -1,6 +1,7 @@
 ---
 layout: page
-title: członkostwo
+title: Członkostwo
+description: Jak zostać członkiem?
 permalink: /membership/
 menus: header
 ---

@@ -1,11 +1,16 @@
 ---
 layout: contact
-title: kontakt
+title: Kontakt
+description: Do Studzienki 28, 80-233 Gdańsk, żółta brama wjazdowa do warsztatu. kontakt@pomorze.hackerspace.pl
 permalink: /contact/
 menus: header
 ---
 
-Naszym głównym kanałem komunikacyjnym jest nasz slack - [https://hspomorze.slack.com](hspomorze.slack.com), do którego zapraszamy wszystkich gości, Jeśli chcesz dołączyć, wpadnij do nas, albo zapytaj przez email: [kontakt@pomorze.hackerspace.pl](mailto:kontakt@pomorze.hackerspace.pl?Subject=Strona%20HSP%20kontakt - slack)
+## Adres 
+
+Naszym głównym kanałem komunikacyjnym jest slack - [hspomorze.slack.com](https://hspomorze.slack.com), do którego zapraszamy wszystkich gości. Jeśli chcesz dołączyć, wpadnij do nas, albo poproś o wysłanie zaproszenia w formularzu powyżej.
+
+Jeżeli preferujesz korzystać ze swojego klienta mailowego, nasz email to:
 
 [kontakt@pomorze.hackerspace.pl](mailto:kontakt@pomorze.hackerspace.pl?Subject=Strona%20HSP%20kontakt)
 
