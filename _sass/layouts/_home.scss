@@ -29,9 +29,6 @@
 		img {
 			max-width: $size;
 			margin: 0.67em 0 0;
-			border: 5px solid $hacker-color;
-			border-radius: $size;
-			border-width: $size/20;
 		}
 
 		@media screen and (max-width: 600px) {
