@@ -8,10 +8,10 @@ menus: header
 
 ## Komunikatory
 
-Jeżeli potrzebujesz doraźnie skontaktować się z naszą społecznością, napisz na [Telegramie](https://t.me/hspomorze).
-
-
 Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [hspomorze.slack.com](https://hspomorze.slack.com), do którego również zapraszamy wszystkich gości. Jeśli chcesz dołączyć, wpadnij do nas, albo poproś o wysłanie zaproszenia w formularzu powyżej.
+
+
+Jeżeli potrzebujesz doraźnie skontaktować się z naszą społecznością, napisz na [Telegramie](https://t.me/hspomorze).
 
 
 Komunikatorem następnej generacji jest Matrix, dołącz do nas na [#hsp.sh:0x3c.pl](https://matrix.to/#hsp.sh:0x3c.pl) (chat łączony z Telegramem oraz niedługo Slackiem i IRC).
