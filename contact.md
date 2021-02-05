@@ -8,7 +8,7 @@ menus: header
 
 ## Komunikatory
 
-Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [hspomorze.slack.com](https://hspomorze.slack.com), do którego również zapraszamy wszystkich gości. Jeśli chcesz dołączyć, wpadnij do nas, albo poproś o wysłanie zaproszenia w formularzu powyżej.
+Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [hspomorze.slack.com](https://join.slack.com/t/hspomorze/shared_invite/zt-kstnlyol-AjDRGHUqfK1GVYvi99G47g), do którego również zapraszamy wszystkich gości.
 
 
 Jeżeli potrzebujesz doraźnie skontaktować się z naszą społecznością, napisz na [Telegramie](https://t.me/hspomorze).
