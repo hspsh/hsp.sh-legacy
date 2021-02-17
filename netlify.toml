@@ -26,3 +26,10 @@
   from = "/github"
   to = "https://github.com/hspsh"
 
+[[redirects]]
+  from = "/workadventure"
+  to = "https://play.workadventu.re/_/global/hspsh.github.io/hspVenture/map.json"
+  
+[[redirects]]
+  from = "/jitsi"
+  to = "https://coremeet.workadventu.re/global-hspsh-chillroom"
