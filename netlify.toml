@@ -33,3 +33,7 @@
 [[redirects]]
   from = "/jitsi"
   to = "https://meet.jit.si/hsp.sh"
+
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/hs3city/shared_invite/zt-kstnlyol-AjDRGHUqfK1GVYvi99G47g"
