@@ -12,9 +12,11 @@ Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [
 
 Do dłuższych projektów i planowania działań społeczności, korzystamy z [Forum](//forum.hsp.sh).
 
-Jeżeli preferujesz korzystać ze swojego klienta mailowego, nasz email to:
+
+Skrzynka mailowa stowarzyszenia do której zagląda zarząd jest osiągalna pod adresem:
 
 [kontakt@pomorze.hackerspace.pl](mailto:kontakt@pomorze.hackerspace.pl?Subject=Strona%20HSP%20kontakt)
+
 
 Jeśli nie dość Ci alternatywnych sposobów komunikacji, sprawdź co teraz jest w modzie na [stronie wiki](https://wiki.hsp.sh/komunikator).
 
