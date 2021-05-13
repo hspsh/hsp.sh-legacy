@@ -37,3 +37,8 @@
 [[redirects]]
   from = "/slack"
   to = "https://join.slack.com/t/hs3city/shared_invite/zt-kstnlyol-AjDRGHUqfK1GVYvi99G47g"
+
+[[headers]]
+  for = "/.well-known/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
