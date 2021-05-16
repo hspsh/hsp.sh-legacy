@@ -1,4 +1,12 @@
 [[redirects]]   
+  from = "/calendar.ics"
+  to = "https://wydarzenia.hsp.sh/@hs/feed/ics"
+  
+ [[redirects]]   
+  from = "/calendar.atom"
+  to = "https://wydarzenia.hsp.sh/@hs/feed/atom"
+
+[[redirects]]   
   from = "/events/*"
   to = "/posts"
 
