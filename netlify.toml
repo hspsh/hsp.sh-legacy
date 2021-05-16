@@ -2,7 +2,7 @@
   from = "/calendar.ics"
   to = "https://wydarzenia.hsp.sh/@hs/feed/ics"
   
- [[redirects]]   
+[[redirects]]   
   from = "/calendar.atom"
   to = "https://wydarzenia.hsp.sh/@hs/feed/atom"
 
