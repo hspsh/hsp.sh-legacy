@@ -3,9 +3,11 @@ layout: post
 banner: /assets/images/drzwi-otwarte.jpg
 title: Rozpoczynamy restart post-pandemiczny!
 date: 2021-06-09
-categories: [event]
+categories: [notice]
 
+# if display on every page
 pinned: true
+alert: danger
 ---
 
 W Stowarzyszeniu Hackerspace Pomorze zaszły zmiany i dlatego w imieniu Stowarzyszenia zwracam się do wszystkich członków naszej społeczności, by przekazać następujące informacje...
