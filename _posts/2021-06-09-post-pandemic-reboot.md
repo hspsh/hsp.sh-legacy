@@ -10,7 +10,7 @@ pinned: true
 alert: danger
 ---
 
-W Stowarzyszeniu Hackerspace Pomorze zaszły zmiany i dlatego w imieniu Stowarzyszenia zwracam się do wszystkich członków naszej społeczności, by przekazać następujące informacje...
+W Stowarzyszeniu Hackerspace Pomorze zaszły zmiany i dlatego zwracamy się do wszystkich członków naszej społeczności, by przekazać następujące informacje...
 
 1. Przede wszystkim, zapraszamy do naszej nowej siedziby na Do Studzienki 28 k. Wydziału ETI PG. Od 10 czerwca przechodzimy na format offline Dni Otwartych i [będziemy spotykać się co tydzień w lokalu](https://www.facebook.com/events/205877854708789). Dokładny adres [tutaj](/contact).
 2. By wykorzystać potencjał naszego [Slacka](/slack), stworzyliśmy kanał #wydarzenia, gdzie będziemy zamieszczać informacje na temat nadchodzących wydarzeń. Będzie to kanał, na którym będziemy używać gromko @channel, więc jeżeli chcecie być na bieżąco, to polecam na niego wstąpić. 
