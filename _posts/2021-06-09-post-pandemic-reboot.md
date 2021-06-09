@@ -1,6 +1,6 @@
 ---
 layout: post
-banner: /assets/images/hspomorze/hs_wolna_elekcja.jpg
+banner: /assets/images/drzwi-otwarte.jpg
 title: Rozpoczynamy restart post-pandemiczny!
 date: 2021-06-09
 categories: [event]
