@@ -2,7 +2,7 @@
 layout: post
 banner: /assets/images/vlepa_szklarnia.png
 title: Postpandemiczna Integracja HSP!
-date: 2021-06-25
+date: 2021-06-24
 redirect_from:
   - /integracja
 categories: [posts]
