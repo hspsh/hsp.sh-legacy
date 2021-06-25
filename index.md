@@ -19,4 +19,6 @@ Najlepiej po prostu pogadaj z kimś z nas. Dołącz do [Slacka](/slack) i przeds
 Zachęcamy sympatyków do formalnego członkostwa w Stowarzyszeniu Hackerspace Pomorze. Przyjmujemy również datki. -> [więcej(wsparcie);](/membership)
 
 ## Co się dzieje?
+Wpadnij na Dzień otwarty w HSP! Co tydzień w Czwartek o 19:00.
+
 {% include posts.html %}
