@@ -18,7 +18,7 @@ W planach:
 
 # Kiedy?
 
-## Piątek, 2 Lipca
+## Piątek, 2 Lipca, Godzina 18:00
 
 [Dodaj do kalendarza](https://wydarzenia.hsp.sh/events/a7f90e93-13ea-499d-b732-c16dd1b50587)
 
