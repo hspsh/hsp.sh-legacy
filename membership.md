@@ -12,8 +12,10 @@ Członkostwo daje Ci dostęp do [lokalu](/contact) (własny klucz i kartę) oraz
 
 Członkostwo również wiąże się z obowiązkiem wsparciem Stowarzyszenia w formie składki członkowskiej która wynosi 100 PLN / msc. Jeżeli jest to dla ciebie duża kwota, nie martw się! Porozmawiaj z zarządem o obniżonej składce (tzw. "studenckiej").
 
-1. Wypełnić deklarację członkowską.
-2. Zebrać 3 okejki.
+Aby uzyskać członkostwo, należy:
+
+1. Wypełnić [deklarację członkowską](https://nc.hsp.sh/index.php/s/gZGb6Fjj99cnySo/download).
+2. Zebrać 3 okejki od członków.
 3. Dostarczyć deklarację do członka Zarządu (@amadeusz, @hamsterking, @yasiu, @Jogurt) rozpoczynając oficjalny proces przyjęcia do stowarzyszenia.
 4. Członkiem zostaje się po akceptacji Zarządu, bez sprzeciwu członków, i opłaceniu składki.  
     - Tydzień przed głosowaniem Zarząd informuje członków HSP o kandydacie czekając na potencjalne obiekcje.
@@ -21,7 +23,7 @@ Członkostwo również wiąże się z obowiązkiem wsparciem Stowarzyszenia w fo
 
 Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nas wesprzeć, daj nam znać, jesteśmy otwarci na współpracę.
 
-Więcej o działalności naszej organizacji możesz przeczytać w [Statucie](https://hsp.sh/assets/status_hsp.pdf).
+Więcej o działalności naszej organizacji możesz przeczytać w [Statucie](https://nc.hsp.sh/index.php/s/Mjk6DrW69JGjS23/download).
 
 ### Dane do przelewu
 
