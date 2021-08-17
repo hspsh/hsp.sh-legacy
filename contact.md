@@ -8,7 +8,7 @@ menus: header
 
 ## Komunikatory
 
-Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [hspomorze.slack.com](/slack), do którego również zapraszamy wszystkich gości.
+Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest Discord - [hsp.sh/discord](/discord), do którego również zapraszamy wszystkich gości.
 
 Do dłuższych projektów i planowania działań społeczności, korzystamy z [Forum](//forum.hsp.sh).
 
