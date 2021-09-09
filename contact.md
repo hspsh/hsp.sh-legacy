@@ -8,20 +8,15 @@ menus: header
 
 ## Komunikatory
 
-Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest slack - [hspomorze.slack.com](/slack), do którego również zapraszamy wszystkich gości.
+Głównym kanałem komunikacyjnym i organizacyjnym stowarzyszenia jest Discord - [hsp.sh/discord](/discord), do którego również zapraszamy wszystkich gości.
+
+Do dłuższych projektów i planowania działań społeczności, korzystamy z [Forum](//forum.hsp.sh).
 
 
-Jeżeli potrzebujesz doraźnie skontaktować się z naszą społecznością, napisz na [Telegramie](https://t.me/hspomorze).
-
-
-Komunikatorem następnej generacji jest Matrix, dołącz do nas na [#hsp.sh:0x3c.pl](https://matrix.to/#hsp.sh:0x3c.pl) (chat łączony z Telegramem oraz niedługo Slackiem i IRC).
-
-
-Jest też kanał IRC na którym ktoś czasem odpowiada. Połącz się z #hackerspace-pomorze na [freenode.net](https://freenode.net).  
-
-Jeżeli preferujesz korzystać ze swojego klienta mailowego, nasz email to:
+Skrzynka mailowa stowarzyszenia do której zagląda zarząd jest osiągalna pod adresem:
 
 [kontakt@pomorze.hackerspace.pl](mailto:kontakt@pomorze.hackerspace.pl?Subject=Strona%20HSP%20kontakt)
+
 
 Jeśli nie dość Ci alternatywnych sposobów komunikacji, sprawdź co teraz jest w modzie na [stronie wiki](https://wiki.hsp.sh/komunikator).
 

@@ -2,6 +2,8 @@
 quick:
   - url: //wiki.hsp.sh
     title: wiki
+  - url: //forum.hsp.sh
+    title: forum
   - url: //facebook.com/Hackerspace-Pomorze-103254931521373
     title: fb
   - url: //github.com/hspsh
