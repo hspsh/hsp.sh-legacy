@@ -7,6 +7,8 @@ header {
     float: left;
 }
 
+$nbsp: "\0000a0";
+
 header nav {
     text-transform: lowercase;
     display: inline
@@ -15,15 +17,18 @@ header nav {
         text-decoration: none !important;
     }
     a::after {
-        content: " |";
+        content: "#{$nbsp}|";
         color: $hacker-color;
+        display: inline-block;
     }
     a:first-child::before {
-        content: "[ ";
+        content: "[#{$nbsp}";
         color: $hacker-color;
+        display: inline-block;
     }
     a:last-child::after {
-        content: " ]";
+        content: "#{$nbsp}]";
         color: $hacker-color;
+        display: inline-block;
     }
 }
