@@ -8,11 +8,22 @@ menus: header
 
 Zapraszamy sympatyków do formalnego członkostwa w Stowarzyszeniu Hackerspace Pomorze.
 
-Członkostwo daje Ci dostęp do [lokalu](/contact) (własny klucz i kartę) oraz wpis do listy członków w naszym stowarzyszeniu (w tym głos na formalnych Zebraniach). Zdobycie członkostwa wymaga przede wszystkim poznania członków i zdobycia 3 okejek. Okejki są sygnałem, że ktoś za Ciebie poręczył i możemy tobie zaufać. Członkostwo również wiąże się z obowiązkiem wsparciem Stowarzyszenia w formie składki członkowskiej która wynosi 100 PLN / msc. Jeżeli jest to dla ciebie duża kwota, nie martw się! Porozmawiaj z zarządem o obniżonej składce (tzw. "studenckiej").
+Członkostwo daje Ci dostęp do [lokalu](/contact) (własny klucz i kartę) oraz wpis do listy członków w naszym stowarzyszeniu (w tym głos na formalnych Zebraniach). Zdobycie członkostwa wymaga przede wszystkim poznania członków i zdobycia 3 okejek. Okejki są sygnałem, że ktoś za Ciebie poręczył i możemy tobie zaufać. 
+
+Członkostwo również wiąże się z obowiązkiem wsparciem Stowarzyszenia w formie składki członkowskiej która wynosi 100 PLN / msc. Jeżeli jest to dla ciebie duża kwota, nie martw się! Porozmawiaj z zarządem o obniżonej składce (tzw. "studenckiej").
+
+Aby uzyskać członkostwo, należy:
+
+1. Wypełnić [deklarację członkowską](https://nc.hsp.sh/index.php/s/gZGb6Fjj99cnySo/download).
+2. Zebrać 3 okejki od członków.
+3. Dostarczyć deklarację do członka Zarządu (@amadeusz, @hamsterking, @yasiu, @Jogurt) rozpoczynając oficjalny proces przyjęcia do stowarzyszenia.
+4. Członkiem zostaje się po akceptacji Zarządu, bez sprzeciwu członków, i opłaceniu składki.  
+    - Tydzień przed głosowaniem Zarząd informuje członków HSP o kandydacie czekając na potencjalne obiekcje.
+5. Okres przejściowy - klucze do lokalu można uzyskać najwcześniej miesiąc po złożeniu deklaracji członkowskiej na ręce członka Zarządu.
 
 Jeśli masz firmę lub fajnego szefa, który potencjalnie chciałby nas wesprzeć, daj nam znać, jesteśmy otwarci na współpracę.
 
-Więcej o działalności naszej organizacji możesz przeczytać w [Statucie](https://hsp.sh/assets/status_hsp.pdf).
+Więcej o działalności naszej organizacji możesz przeczytać w [Statucie](https://nc.hsp.sh/index.php/s/Mjk6DrW69JGjS23/download).
 
 ### Dane do przelewu
 
