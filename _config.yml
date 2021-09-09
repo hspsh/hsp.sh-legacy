@@ -51,5 +51,6 @@ exclude:
 
 include:
   - _redirects
+  - ".well-known"
 
 copyright: hsp.sh

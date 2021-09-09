@@ -1,4 +1,12 @@
 [[redirects]]   
+  from = "/calendar.ics"
+  to = "https://wydarzenia.hsp.sh/@hs/feed/ics"
+  
+[[redirects]]   
+  from = "/calendar.atom"
+  to = "https://wydarzenia.hsp.sh/@hs/feed/atom"
+
+[[redirects]]   
   from = "/events/*"
   to = "/posts"
 
@@ -36,4 +44,13 @@
 
 [[redirects]]
   from = "/slack"
-  to = "https://join.slack.com/t/hs3city/shared_invite/zt-kstnlyol-AjDRGHUqfK1GVYvi99G47g"
+  to = "https://forum.hsp.sh/t/zmiana-komunikatora/421"
+ 
+[[redirects]]
+  from = "/discord"
+  to = "https://discord.gg/2VZfQVejVP"
+
+[[headers]]
+  for = "/.well-known/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
