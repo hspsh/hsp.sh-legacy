@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{{ site.description }}">
-    
+
     <link rel="manifest" href="/manifest.json">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -21,19 +21,20 @@
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{% if page.banner %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}">
-    
+
     <meta property="twitter:title" content="{{ page.title }} | {{ site.title }}">
     <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="twitter:image" content="{% if page.banner %}{{ page.banner }}{% else %}{{ site.banner }}{% endif %}">
     <meta property="twitter:card" content="summary">
-    
-    <link rel="preload" as="image" href="/assets/logo_accent.png">  
+
+    <link rel="preload" as="image" href="/assets/logo_accent.png">
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Inconsolata">
 
     <link rel="stylesheet" type="text/css" href="/assets/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
 
-    <script src="/assets/whois.js" async></script> 
+    <script src="/assets/whois.js" async></script>
+    <script async defer data-domain="hsp.sh" src="https://plausible.at.hsp.sh/js/plausible.js"></script>
 </head>
 {{ content }}
 </html>
